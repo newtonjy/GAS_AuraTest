@@ -1,0 +1,2229 @@
+﻿Log file open, 03/31/25 19:24:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=4940)
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: CPP_Arua
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="DebugGame"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.3624] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i5-13600KF"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "D:\doc\Unreal Projects\CPP_Arua\CPP_Arua.uproject" -run=VisualStudioTools -unattended -noshadercompile -nosound -nullrhi -nocpuprofilertrace -nocrashreports -nosplash -ddc=noshared -output=C:\Users\thyia\AppData\Local\Temp\tmp9A1C.tmp""
+LogCsvProfiler: Display: Metadata set : loginid="016c29194770ff295bbb06b692c68ba5"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 1.324665
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-1A6BF1B1407E7FED4C2D93925C68ACDD
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../doc/Unreal Projects/CPP_Arua/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: Display: Loading VulkanPC ini files took 0.02 seconds
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading Unix ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.03 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin VisualStudioTools
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin MetaHumanProjectUtilities
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin XInputDevice
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogStudioTelemetry: Display: Starting StudioTelemetry Module
+LogStudioTelemetry: Display: Created an analytics provider LogAnalytics from module AnalyticsLog configuration Engine [StudioTelemetry.Log]
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlHttpThread
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: UnrealEditor-Win64-DebugGame-Cmd.exe
+LogInit: Build: ++UE5+Release-5.4-CL-35576357
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=016c29194770ff295bbb06b692c68ba5
+LogInit: DeviceId=
+LogInit: Engine Version: 5.4.4-35576357+++UE5+Release-5.4
+LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
+LogInit: Net CL: 33043543
+LogInit: OS: Windows 11 (24H2) [10.0.26100.3624] (), CPU: 13th Gen Intel(R) Core(TM) i5-13600KF, GPU: NVIDIA GeForce RTX 4070
+LogInit: Compiled (64-bit): Aug 16 2024 04:10:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE5+Release-5.4
+LogInit: Command Line:  "D:\doc\Unreal Projects\CPP_Arua\CPP_Arua.uproject" -run=VisualStudioTools -unattended -noshadercompile -nosound -nullrhi -nocpuprofilertrace -nocrashreports -nosplash -ddc=noshared -output=C:\Users\thyia\AppData\Local\Temp\tmp9A1C.tmp
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 48
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 134
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 12
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 13
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:100000]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:100000]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.03.31-11.24.34:018][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.03.31-11.24.34:018][  0]LogConfig: Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]]
+[2025.03.31-11.24.34:018][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.03.31-11.24.34:018][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.03.31-11.24.34:018][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.03.31-11.24.34:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.03.31-11.24.34:019][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.03.31-11.24.34:019][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.03.31-11.24.34:020][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.03.31-11.24.34:020][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.03.31-11.24.34:020][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapStrength:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.03.31-11.24.34:021][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.03.31-11.24.34:040][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.03.31-11.24.34:040][  0]LogHAL: Display: Platform has ~ 32 GB [34164097024 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.03.31-11.24.34:041][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.03.31-11.24.34:041][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.03.31-11.24.34:041][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.03.31-11.24.34:046][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.03.31-11.24.34:046][  0]LogConfig: Set CVar [[r.Shaders.WarningsAsErrors:0 ;; 0: off, 1: global shaders, 2: all]]
+[2025.03.31-11.24.34:046][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.03.31-11.24.34:046][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.03.31-11.24.34:046][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.03.31-11.24.34:046][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.03.31-11.24.34:046][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2025.03.31-11.24.34:046][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/doc/Unreal Projects/CPP_Arua/Saved/Config/WindowsEditor/Editor.ini]
+[2025.03.31-11.24.34:047][  0]LogInit: Computer: JY2-PC
+[2025.03.31-11.24.34:047][  0]LogInit: User: thyia
+[2025.03.31-11.24.34:047][  0]LogInit: CPU Page size=4096, Cores=14
+[2025.03.31-11.24.34:047][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.03.31-11.24.35:117][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx) Virtual=33.8GB
+[2025.03.31-11.24.35:117][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.03.31-11.24.35:117][  0]LogMemory: Process Physical Memory: 473.98 MB used, 473.98 MB peak
+[2025.03.31-11.24.35:117][  0]LogMemory: Process Virtual Memory: 473.20 MB used, 473.20 MB peak
+[2025.03.31-11.24.35:117][  0]LogMemory: Physical Memory: 15313.79 MB used,  17267.63 MB free, 32581.42 MB total
+[2025.03.31-11.24.35:117][  0]LogMemory: Virtual Memory: 18107.80 MB used,  16521.62 MB free, 34629.42 MB total
+[2025.03.31-11.24.35:117][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.03.31-11.24.35:120][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.03.31-11.24.35:183][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.03.31-11.24.35:184][  0]LogInit: Overriding language with editor language configuration option (zh-Hans).
+[2025.03.31-11.24.35:184][  0]LogInit: Overriding language with editor locale configuration option (zh-Hans).
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2025.03.31-11.24.35:449][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2025.03.31-11.24.37:515][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2025.03.31-11.24.37:525][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.03.31-11.24.37:922][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.03.31-11.24.37:922][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.03.31-11.24.37:922][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.03.31-11.24.37:922][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.03.31-11.24.37:922][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.03.31-11.24.37:922][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.03.31-11.24.37:922][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.03.31-11.24.37:939][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.03.31-11.24.37:954][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.03.31-11.24.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.03.31-11.24.38:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.03.31-11.24.38:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.03.31-11.24.38:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.03.31-11.24.38:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.03.31-11.24.38:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.03.31-11.24.38:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.03.31-11.24.38:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.03.31-11.24.38:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.03.31-11.24.38:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.03.31-11.24.38:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.03.31-11.24.38:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.03.31-11.24.38:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.03.31-11.24.38:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.03.31-11.24.38:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.03.31-11.24.38:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.03.31-11.24.38:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.03.31-11.24.38:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.03.31-11.24.38:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.03.31-11.24.38:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.03.31-11.24.38:152][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.03.31-11.24.38:272][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.03.31-11.24.38:596][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   VVM_1_0
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2025.03.31-11.24.38:619][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2025.03.31-11.24.38:619][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2025.03.31-11.24.38:621][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.03.31-11.24.38:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../doc/Unreal Projects/CPP_Arua/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.03.31-11.24.38:621][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.03.31-11.24.38:622][  0]LogZenServiceInstance: Found Zen config default=C:/Users/thyia/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.03.31-11.24.38:626][  0]LogZenServiceInstance: InTree version at 'D:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/zenserver.exe' is '5.4.5-202405102234-windows-x64-release-373e58b'
+[2025.03.31-11.24.38:627][  0]LogZenServiceInstance: Installed version at 'C:/Users/thyia/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.4.5-202405102234-windows-x64-release-373e58b'
+[2025.03.31-11.24.38:627][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2025.03.31-11.24.38:627][  0]LogZenServiceInstance: Display: Launching executable 'C:/Users/thyia/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/thyia/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/thyia/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "C:\Users\thyia\AppData\Local\UnrealEngine\Common\Zen\Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --http-forceloopback --quiet --owner-pid 10280'
+[2025.03.31-11.24.38:946][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.03.31-11.24.38:949][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.03.31-11.24.38:987][  0]LogDerivedDataCache: ../../../Engine/DerivedDataCache: Speed tests took 0.04 seconds.
+[2025.03.31-11.24.38:987][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache: Performance: Latency=0.08ms. RandomReadSpeed=27.64MBs, RandomWriteSpeed=349.34MBs. Assigned SpeedClass 'Local'
+[2025.03.31-11.24.38:987][  0]LogDerivedDataCache: Local: Using data cache path ../../../Engine/DerivedDataCache: DeleteOnly
+[2025.03.31-11.24.39:021][  0]LogAssetRegistry: FAssetRegistry took 0.0011 seconds to start up
+[2025.03.31-11.24.39:025][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.03.31-11.24.39:178][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.03.31-11.24.39:178][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.03.31-11.24.39:194][  0]LogDeviceProfileManager: Active device profile: [000007A38BCE5200][000007A385D0C800 66] WindowsEditor
+[2025.03.31-11.24.39:194][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.03.31-11.24.39:196][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../doc/Unreal Projects/CPP_Arua/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.03.31-11.24.39:201][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.03.31-11.24.39:201][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../doc/Unreal Projects/CPP_Arua/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.03.31-11.24.39:204][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.03.31-11.24.39:324][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.03.31-11.24.39:324][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.03.31-11.24.39:324][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.03.31-11.24.39:748][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.03.31-11.24.39:748][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.03.31-11.24.39:748][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.03.31-11.24.39:748][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.03.31-11.24.39:748][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.03.31-11.24.40:334][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.03.31-11.24.40:334][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.03.31-11.24.40:500][  0]LogSlate: Border
+[2025.03.31-11.24.40:500][  0]LogSlate: BreadcrumbButton
+[2025.03.31-11.24.40:500][  0]LogSlate: Brushes.Title
+[2025.03.31-11.24.40:500][  0]LogSlate: Default
+[2025.03.31-11.24.40:500][  0]LogSlate: Icons.Save
+[2025.03.31-11.24.40:500][  0]LogSlate: Icons.Toolbar.Settings
+[2025.03.31-11.24.40:500][  0]LogSlate: ListView
+[2025.03.31-11.24.40:500][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.03.31-11.24.40:500][  0]LogSlate: SoftwareCursor_Grab
+[2025.03.31-11.24.40:500][  0]LogSlate: TableView.DarkRow
+[2025.03.31-11.24.40:500][  0]LogSlate: TableView.Row
+[2025.03.31-11.24.40:500][  0]LogSlate: TreeView
+[2025.03.31-11.24.41:200][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.03.31-11.24.41:204][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 4.455 ms
+[2025.03.31-11.24.42:278][  0]LogPython: Using Python 3.11.8
+[2025.03.31-11.24.42:787][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.03.31-11.24.43:213][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: EE85FC0773AA43E68000000000004300 | Instance: 28E8360449249671CA87D3B1DFC90AE0 (JY2-PC-10280).
+[2025.03.31-11.24.43:416][  0]LogCollectionManager: Loaded 0 collections in 0.000913 seconds
+[2025.03.31-11.24.43:416][  0]LogFileCache: Scanning file cache for directory 'D:/doc/Unreal Projects/CPP_Arua/Saved/Collections/' took 0.00s
+[2025.03.31-11.24.43:418][  0]LogFileCache: Scanning file cache for directory 'D:/doc/Unreal Projects/CPP_Arua/Content/Developers/thyia/Collections/' took 0.00s
+[2025.03.31-11.24.43:419][  0]LogFileCache: Scanning file cache for directory 'D:/doc/Unreal Projects/CPP_Arua/Content/Collections/' took 0.00s
+[2025.03.31-11.24.43:419][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2025.03.31-11.24.44:425][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.03.31-11.24.44:446][  0]LogMetasoundEngine: MetaSound Engine Initialized
+[2025.03.31-11.24.45:216][  0]SourceControl: 版本控制已禁用
+[2025.03.31-11.24.45:273][  0]SourceControl: 版本控制已禁用
+[2025.03.31-11.24.47:823][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.03.31-11.24.47:933][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.03.31-11.24.47:933][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.03.31-11.24.47:968][  0]LogOpenImageDenoise: OIDN starting up
+[2025.03.31-11.24.48:599][  0]LogUObjectArray: 37932 objects as part of root set at end of initial load.
+[2025.03.31-11.24.48:599][  0]LogUObjectAllocator: 11493464 out of 0 bytes used by permanent object pool.
+[2025.03.31-11.24.48:599][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.03.31-11.24.48:600][  0]LogInit: Executing Class /Script/VisualStudioTools.VisualStudioToolsCommandlet
+[2025.03.31-11.24.48:600][  0]LogInit: Initializing Editor Engine...
+[2025.03.31-11.24.48:602][  0]LogEngine: Initializing Engine...
+[2025.03.31-11.24.48:629][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2025.03.31-11.24.48:835][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.03.31-11.24.48:837][  0]LogNiagara: UAV Float16 is not supported, compressed GPU emitters will be disabled.
+[2025.03.31-11.24.48:860][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.03.31-11.24.48:860][  0]LogInit: Texture streaming: Disabled
+[2025.03.31-11.24.48:889][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.03.31-11.24.48:895][  0]LogInit: Initializing Editor Engine Completed
+[2025.03.31-11.24.49:486][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.03.31-11.24.49:671][  0]LogVisualStudioTools: Display: Init VS Tools cmdlet.
+[2025.03.31-11.24.49:802][  0]log LogVisualStudioTools only
+[2025.03.31-11.24.49:804][  0]LogVisualStudioTools is now Verbose
+[2025.03.31-11.24.49:804][  0]Disabling other logs finished
+[2025.03.31-11.24.49:804][  0]Processing blueprints [1/4]: /Game/Blueprint/Character/BP_AuraController.BP_AuraController_C
+[2025.03.31-11.24.49:821][  0]Processing blueprints [2/4]: /Game/Blueprint/Character/Enenmy/BP_Goblin_Spear.BP_Goblin_Spear_C
+[2025.03.31-11.24.50:021][  0]Processing blueprints [3/4]: /Game/Blueprint/Character/Enenmy/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2025.03.31-11.24.50:077][  0]Processing blueprints [4/4]: /Game/Blueprint/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.03.31-11.24.50:325][  0]LowLevelTasks                             Log           
+[2025.03.31-11.24.50:325][  0]LogTaskGraph                              Log           
+[2025.03.31-11.24.50:325][  0]OodleDataCompression                      Log           
+[2025.03.31-11.24.50:325][  0]LogLockFreeList                           Log           
+[2025.03.31-11.24.50:325][  0]LogStackTracker                           Log           
+[2025.03.31-11.24.50:325][  0]LogUnion                                  Log           
+[2025.03.31-11.24.50:325][  0]LogStreamingFileCache                     Log           
+[2025.03.31-11.24.50:325][  0]LogChunkInstaller                         Log           
+[2025.03.31-11.24.50:325][  0]LogCrashContext                           Display       
+[2025.03.31-11.24.50:325][  0]LogGenericPlatformMisc                    Log           
+[2025.03.31-11.24.50:325][  0]LogGenericPlatformString                  Log           
+[2025.03.31-11.24.50:325][  0]LogGenericPlatformSymbolication           Log           
+[2025.03.31-11.24.50:325][  0]LogGenericPlatformTime                    Log           
+[2025.03.31-11.24.50:325][  0]LogConsoleResponse                        Log           
+[2025.03.31-11.24.50:325][  0]LogConsoleManager                         Log           
+[2025.03.31-11.24.50:325][  0]LogFileManager                            Log           
+[2025.03.31-11.24.50:325][  0]LogPlatformFile                           Log           
+[2025.03.31-11.24.50:325][  0]LogPlatformFileManagedStorage             Log           
+[2025.03.31-11.24.50:325][  0]LogFileOpenOrder                          Log           
+[2025.03.31-11.24.50:325][  0]LogMallocFrameProfiler                    Log           
+[2025.03.31-11.24.50:325][  0]LogICUInternationalization                Log           
+[2025.03.31-11.24.50:325][  0]LogGatherArchiveObject                    Log           
+[2025.03.31-11.24.50:325][  0]LogInternationalizationManifestObject     Log           
+[2025.03.31-11.24.50:325][  0]LogInternationalizationMetadata           Log           
+[2025.03.31-11.24.50:325][  0]LogStringTable                            Log           
+[2025.03.31-11.24.50:325][  0]LogText                                   Log           
+[2025.03.31-11.24.50:325][  0]LogTextFormatter                          Log           
+[2025.03.31-11.24.50:325][  0]LogTextHistory                            Log           
+[2025.03.31-11.24.50:325][  0]LogTextKey                                Log           
+[2025.03.31-11.24.50:325][  0]LogTextLocalizationManager                Log           
+[2025.03.31-11.24.50:325][  0]LogTextLocalizationResource               Log           
+[2025.03.31-11.24.50:325][  0]LogIoDispatcher                           Log           
+[2025.03.31-11.24.50:325][  0]LogIoStatus                               Log           
+[2025.03.31-11.24.50:325][  0]LogIoStore                                Log           
+[2025.03.31-11.24.50:325][  0]LogColorList                              Log           
+[2025.03.31-11.24.50:325][  0]LogFloatPacker                            Log           
+[2025.03.31-11.24.50:325][  0]LogGenericOctree                          Log           
+[2025.03.31-11.24.50:325][  0]LogTransform                              Log           
+[2025.03.31-11.24.50:325][  0]LogUnrealMath                             Log           
+[2025.03.31-11.24.50:325][  0]LogApp                                    Log           
+[2025.03.31-11.24.50:325][  0]LogLatentCommands                         Log           
+[2025.03.31-11.24.50:325][  0]LogAutomationTestStateTrace               Log           
+[2025.03.31-11.24.50:325][  0]LogAutomationTest                         Warning       
+[2025.03.31-11.24.50:325][  0]LogCompression                            Log           
+[2025.03.31-11.24.50:325][  0]LogConfig                                 Log           
+[2025.03.31-11.24.50:325][  0]LogHAL                                    Log           
+[2025.03.31-11.24.50:325][  0]LogSerialization                          Log           
+[2025.03.31-11.24.50:325][  0]LogContentComparisonCommandlet            Log           
+[2025.03.31-11.24.50:325][  0]LogNetPackageMap                          Warning       
+[2025.03.31-11.24.50:325][  0]LogNetSerialization                       Warning       
+[2025.03.31-11.24.50:325][  0]LogMemory                                 Log           
+[2025.03.31-11.24.50:325][  0]LogProfilingDebugging                     Log           
+[2025.03.31-11.24.50:325][  0]LogTemp                                   Log           
+[2025.03.31-11.24.50:325][  0]LogVirtualization                         Log           
+[2025.03.31-11.24.50:325][  0]LogWindows                                Log           
+[2025.03.31-11.24.50:325][  0]LogSHA                                    Warning       
+[2025.03.31-11.24.50:325][  0]LogStats                                  Log           
+[2025.03.31-11.24.50:325][  0]LogStreaming                              Display       
+[2025.03.31-11.24.50:325][  0]LogInit                                   Log           
+[2025.03.31-11.24.50:325][  0]LogExit                                   Log           
+[2025.03.31-11.24.50:325][  0]LogExec                                   Warning       
+[2025.03.31-11.24.50:325][  0]LogScript                                 Warning       
+[2025.03.31-11.24.50:325][  0]LogLocalization                           Log           
+[2025.03.31-11.24.50:325][  0]LogLongPackageNames                       Log           
+[2025.03.31-11.24.50:325][  0]LogProcess                                Log           
+[2025.03.31-11.24.50:325][  0]LogLoad                                   Log           
+[2025.03.31-11.24.50:325][  0]LogCore                                   Log           
+[2025.03.31-11.24.50:325][  0]LogInteractiveProcess                     Log           
+[2025.03.31-11.24.50:325][  0]LogMonitoredProcess                       Log           
+[2025.03.31-11.24.50:325][  0]LogNetVersion                             Log           
+[2025.03.31-11.24.50:325][  0]LogOutputDevice                           Log           
+[2025.03.31-11.24.50:325][  0]LogPaths                                  Log           
+[2025.03.31-11.24.50:325][  0]LogSecureHash                             Log           
+[2025.03.31-11.24.50:325][  0]LogStringUtility                          Log           
+[2025.03.31-11.24.50:325][  0]LogTimeGuard                              Log           
+[2025.03.31-11.24.50:325][  0]LogUProjectInfo                           Log           
+[2025.03.31-11.24.50:325][  0]LogModuleManager                          Log           
+[2025.03.31-11.24.50:325][  0]LogCsvProfiler                            Log           
+[2025.03.31-11.24.50:325][  0]LogExternalProfiler                       Log           
+[2025.03.31-11.24.50:325][  0]LogHistograms                             Log           
+[2025.03.31-11.24.50:325][  0]LogInstanceCount                          Log           
+[2025.03.31-11.24.50:325][  0]LogPlatformEvents                         Log           
+[2025.03.31-11.24.50:325][  0]LogStall                                  Log           
+[2025.03.31-11.24.50:325][  0]LogTrace                                  Log           
+[2025.03.31-11.24.50:325][  0]LogMemoryImage                            Log           
+[2025.03.31-11.24.50:325][  0]LogStatGroupEnableManager                 Log           
+[2025.03.31-11.24.50:325][  0]LogDevObjectVersion                       Log           
+[2025.03.31-11.24.50:325][  0]LogUnrealNames                            Log           
+[2025.03.31-11.24.50:325][  0]LogThreadingWindows                       Log           
+[2025.03.31-11.24.50:325][  0]LogUnrealMathTest                         Log           
+[2025.03.31-11.24.50:325][  0]LogAccessibility                          Log           
+[2025.03.31-11.24.50:325][  0]LogInputDeviceMapper                      Log           
+[2025.03.31-11.24.50:325][  0]LogSynthBenchmark                         Log           
+[2025.03.31-11.24.50:325][  0]LogGenericPlatformWindow                  Log           
+[2025.03.31-11.24.50:325][  0]LogFramePacer                             Log           
+[2025.03.31-11.24.50:325][  0]LogNullPlatformWindow                     Log           
+[2025.03.31-11.24.50:325][  0]LogTextStoreACP                           Log           
+[2025.03.31-11.24.50:325][  0]LogWindowsDesktop                         Log           
+[2025.03.31-11.24.50:325][  0]LogWindowsTextInputMethodSystem           Log           
+[2025.03.31-11.24.50:325][  0]LogJson                                   Log           
+[2025.03.31-11.24.50:325][  0]LogDesktopPlatform                        Log           
+[2025.03.31-11.24.50:325][  0]LogInstalledPlatforms                     Log           
+[2025.03.31-11.24.50:325][  0]LogDesktopPlatformNull                    Log           
+[2025.03.31-11.24.50:325][  0]LogTargetReceiptBuildWorker               Log           
+[2025.03.31-11.24.50:325][  0]LogPluginManager                          Log           
+[2025.03.31-11.24.50:325][  0]LogProjectManager                         Log           
+[2025.03.31-11.24.50:325][  0]LogMultichannelTCP                        Log           
+[2025.03.31-11.24.50:325][  0]LogSockets                                Log           
+[2025.03.31-11.24.50:325][  0]LogZenClient                              Log           
+[2025.03.31-11.24.50:325][  0]LogZenSerialization                       Log           
+[2025.03.31-11.24.50:325][  0]LogZenHttp                                Log           
+[2025.03.31-11.24.50:325][  0]LogZenServiceInstance                     Log           
+[2025.03.31-11.24.50:325][  0]LogSsl                                    Warning       
+[2025.03.31-11.24.50:325][  0]LogDerivedDataCache                       Log           
+[2025.03.31-11.24.50:325][  0]LogDerivedDataBuild                       Log           
+[2025.03.31-11.24.50:325][  0]LogHttp                                   Display       
+[2025.03.31-11.24.50:325][  0]LogHttpDerivedDataBackendTests            Log           
+[2025.03.31-11.24.50:325][  0]LogAssetData                              Log           
+[2025.03.31-11.24.50:325][  0]LogAssetDataTags                          Log           
+[2025.03.31-11.24.50:325][  0]LogBlueprintSupport                       Log           
+[2025.03.31-11.24.50:325][  0]LogPackageLocalizationCache               Log           
+[2025.03.31-11.24.50:325][  0]LogPackageLocalizationManager             Log           
+[2025.03.31-11.24.50:325][  0]PluginHandlerLog                          Log           
+[2025.03.31-11.24.50:325][  0]LogPackageName                            Log           
+[2025.03.31-11.24.50:325][  0]LogRedirectors                            Log           
+[2025.03.31-11.24.50:325][  0]LogArchiveObjectCrc32                     Log           
+[2025.03.31-11.24.50:325][  0]LogArchiveDiff                            Log           
+[2025.03.31-11.24.50:325][  0]LogArchiveUObject                         Log           
+[2025.03.31-11.24.50:325][  0]LogAsyncArchive                           Display       
+[2025.03.31-11.24.50:325][  0]AsyncLoadingFlush                         Log           
+[2025.03.31-11.24.50:325][  0]LogBulkDataRegistry                       Log           
+[2025.03.31-11.24.50:325][  0]LogEditorPackageLoader                    Log           
+[2025.03.31-11.24.50:325][  0]LogPackageWriter                          Display       
+[2025.03.31-11.24.50:325][  0]LogCasts                                  Log           
+[2025.03.31-11.24.50:325][  0]LogScriptSerialization                    Log           
+[2025.03.31-11.24.50:325][  0]LogClass                                  Log           
+[2025.03.31-11.24.50:325][  0]LogCoreNet                                Log           
+[2025.03.31-11.24.50:325][  0]LogCoreRedirects                          Log           
+[2025.03.31-11.24.50:325][  0]LogEnum                                   Log           
+[2025.03.31-11.24.50:325][  0]LogGarbage                                Warning       
+[2025.03.31-11.24.50:325][  0]LogLinker                                 Log           
+[2025.03.31-11.24.50:325][  0]LogMetaData                               Log           
+[2025.03.31-11.24.50:325][  0]Building compressed animation data for AnimSequence /Game/Assets/Characters/Aura/Animations/Run.Run (Required Memory Estimate: 5.58 MB)
+[2025.03.31-11.24.50:326][  0]LogObj                                    Log           
+[2025.03.31-11.24.50:326][  0]LogObjectRef                              Log           
+[2025.03.31-11.24.50:326][  0]LogOverridableObject                      Warning       
+[2025.03.31-11.24.50:326][  0]LogPackageRelocation                      Log           
+[2025.03.31-11.24.50:326][  0]LogPackageResourceManager                 Log           
+[2025.03.31-11.24.50:326][  0]LogProperty                               Log           
+[2025.03.31-11.24.50:326][  0]LogPropertyBagRepository                  Log           
+[2025.03.31-11.24.50:326][  0]LogOptionalProperty                       Log           
+[2025.03.31-11.24.50:326][  0]LogReferenceChain                         Log           
+[2025.03.31-11.24.50:326][  0]LogSavePackage                            Log           
+[2025.03.31-11.24.50:326][  0]LogScriptFrame                            Warning       
+[2025.03.31-11.24.50:326][  0]LogScriptCore                             Log           
+[2025.03.31-11.24.50:326][  0]LogScriptStackTracker                     Log           
+[2025.03.31-11.24.50:326][  0]LogType                                   Log           
+[2025.03.31-11.24.50:326][  0]LogUObjectAllocator                       Log           
+[2025.03.31-11.24.50:326][  0]LogUObjectArray                           Log           
+[2025.03.31-11.24.50:326][  0]LogUObjectBase                            Log           
+[2025.03.31-11.24.50:326][  0]LogUObjectBootstrap                       Display       
+[2025.03.31-11.24.50:326][  0]LogUObjectGlobals                         Log           
+[2025.03.31-11.24.50:326][  0]LogUniqueObjectName                       Error         
+[2025.03.31-11.24.50:326][  0]LogUObjectHash                            Log           
+[2025.03.31-11.24.50:326][  0]LogUObjectLinker                          Log           
+[2025.03.31-11.24.50:326][  0]LogUObjectThreadContext                   Log           
+[2025.03.31-11.24.50:326][  0]LogWeakObjectPtr                          Log           
+[2025.03.31-11.24.50:326][  0]LogInput                                  Log           
+[2025.03.31-11.24.50:326][  0]LogSlateDebugger                          Log           
+[2025.03.31-11.24.50:326][  0]LogHittestDebug                           Display       
+[2025.03.31-11.24.50:326][  0]LogSlate                                  Log           
+[2025.03.31-11.24.50:326][  0]LogSlateStyles                            Log           
+[2025.03.31-11.24.50:326][  0]LogSlateStyle                             Log           
+[2025.03.31-11.24.50:326][  0]LogLayoutService                          Log           
+[2025.03.31-11.24.50:326][  0]LogTabManager                             Display       
+[2025.03.31-11.24.50:326][  0]LogTypedElementDataStorage                Log           
+[2025.03.31-11.24.50:326][  0]LogRHI                                    Log           
+[2025.03.31-11.24.50:326][  0]LogAnalytics                              Display       
+[2025.03.31-11.24.50:326][  0]LogSignalProcessing                       Log           
+[2025.03.31-11.24.50:326][  0]LogAudioMixer                             Log           
+[2025.03.31-11.24.50:326][  0]LogAudioMixerDebug                        Warning       
+[2025.03.31-11.24.50:326][  0]LogUnrealColorManagementTest              Log           
+[2025.03.31-11.24.50:326][  0]LogTransferFunctions                      Log           
+[2025.03.31-11.24.50:326][  0]LogIcmp                                   Display       
+[2025.03.31-11.24.50:326][  0]LogPing                                   Log           
+[2025.03.31-11.24.50:326][  0]LogUniversalObjectLocator                 Warning       
+[2025.03.31-11.24.50:326][  0]LogCookerSettings                         Log           
+[2025.03.31-11.24.50:326][  0]LogProjectPackagingSettings               Log           
+[2025.03.31-11.24.50:326][  0]LogDDSFile                                Log           
+[2025.03.31-11.24.50:326][  0]LogImageCore                              Log           
+[2025.03.31-11.24.50:326][  0]LogImageCoreUtils                         Log           
+[2025.03.31-11.24.50:326][  0]LogOpenColorIOWrapper                     Log           
+[2025.03.31-11.24.50:326][  0]LogUnrealOpenColorIOTest                  Log           
+[2025.03.31-11.24.50:326][  0]LogTextureCompressor                      Log           
+[2025.03.31-11.24.50:326][  0]LogNetFastTArray                          Warning       
+[2025.03.31-11.24.50:326][  0]LogNetCore                                Log           
+[2025.03.31-11.24.50:326][  0]LogPushModel                              VeryVerbose   
+[2025.03.31-11.24.50:326][  0]LogClearQuad                              Log           
+[2025.03.31-11.24.50:326][  0]LogRDG                                    Log           
+[2025.03.31-11.24.50:326][  0]LogDumpGPU                                Log           
+[2025.03.31-11.24.50:326][  0]LogGPUMessaging                           Log           
+[2025.03.31-11.24.50:326][  0]LogPipelineCacheUtilities                 Log           
+[2025.03.31-11.24.50:326][  0]LogRendererCore                           Log           
+[2025.03.31-11.24.50:326][  0]LogRDG                                    Log           
+[2025.03.31-11.24.50:326][  0]LogRenderTargetPool                       Warning       
+[2025.03.31-11.24.50:326][  0]LogShaders                                Error         
+[2025.03.31-11.24.50:326][  0]LogShaderLibrary                          Log           
+[2025.03.31-11.24.50:326][  0]LogShaderWarnings                         Log           
+[2025.03.31-11.24.50:326][  0]LogVirtualTexturing                       Log           
+[2025.03.31-11.24.50:326][  0]LogEventLoop                              Log           
+[2025.03.31-11.24.50:326][  0]LogHttp                                   Display       
+[2025.03.31-11.24.50:326][  0]LogWinHttp                                Log           
+[2025.03.31-11.24.50:326][  0]LogAnalyticsSessionSummary                Verbose       
+[2025.03.31-11.24.50:326][  0]LogAnalyticsSessionSummarySender          Verbose       
+[2025.03.31-11.24.50:326][  0]LogAssetRegistry                          Log           
+[2025.03.31-11.24.50:326][  0]PacketHandlerLog                          Log           
+[2025.03.31-11.24.50:326][  0]LogAudioResampler                         Warning       
+[2025.03.31-11.24.50:326][  0]LogMeshDescription                        Log           
+[2025.03.31-11.24.50:326][  0]LogLayoutUV                               Log           
+[2025.03.31-11.24.50:326][  0]LogStaticMeshOperations                   Log           
+[2025.03.31-11.24.50:326][  0]LogSkeletalMeshOperations                 Log           
+[2025.03.31-11.24.50:326][  0]LogFilePackageStore                       Log           
+[2025.03.31-11.24.50:326][  0]LogPakFile                                Log           
+[2025.03.31-11.24.50:326][  0]LogGeometry                               Log           
+[2025.03.31-11.24.50:326][  0]LogChaosVDRuntime                         Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogChaosGeneral                           Log           
+[2025.03.31-11.24.50:326][  0]LogChaosThread                            Log           
+[2025.03.31-11.24.50:326][  0]LogChaosSimulation                        Log           
+[2025.03.31-11.24.50:326][  0]LogChaosDebug                             Log           
+[2025.03.31-11.24.50:326][  0]LogChaos                                  Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogChaosDeformableSolver                  Log           
+[2025.03.31-11.24.50:326][  0]LogChaosMinEvolution                      Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogChaosJoint                             Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogChaosSpatialHash                       Verbose       
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]USkeletalMeshSimulationComponentLogging   NoLogging     
+[2025.03.31-11.24.50:326][  0]FSCA_Log                                  Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]FGeometryCollectionLogging                Log           
+[2025.03.31-11.24.50:326][  0]GeometryCollectionAlgoLog                 Log           
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionClean                Verbose       
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]GCS_Log                                   NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogChaosProximity                         Verbose       
+[2025.03.31-11.24.50:326][  0]FGeometryCollectionSizeSpecificUtilityLogging  Log           
+[2025.03.31-11.24.50:326][  0]FGeometryCollectionUtilityLogging         Log           
+[2025.03.31-11.24.50:326][  0]FManagedArrayCollectionLogging            NoLogging     
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionCache                Log           
+[2025.03.31-11.24.50:326][  0]FTransformCollectionLogging               NoLogging     
+[2025.03.31-11.24.50:326][  0]USkeletalMeshSimulationComponentLogging   NoLogging     
+[2025.03.31-11.24.50:326][  0]LogPBDRigidsSolver                        Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]UGCC_LOG                                  Error         
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]USkeletalMeshSimulationComponentLogging   NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]USkeletalMeshSimulationComponentLogging   NoLogging     
+[2025.03.31-11.24.50:326][  0]LogPhysicsCore                            Warning       
+[2025.03.31-11.24.50:326][  0]LogAudioExtensions                        Display       
+[2025.03.31-11.24.50:326][  0]LogAudioEndpoints                         Display       
+[2025.03.31-11.24.50:326][  0]LogCookOnTheFly                           Log           
+[2025.03.31-11.24.50:326][  0]LogCotfServerConnection                   Log           
+[2025.03.31-11.24.50:326][  0]LogIris                                   Log           
+[2025.03.31-11.24.50:326][  0]LogIrisRepNotify                          Warning       
+[2025.03.31-11.24.50:326][  0]LogIrisGroup                              Log           
+[2025.03.31-11.24.50:326][  0]LogIrisFiltering                          Log           
+[2025.03.31-11.24.50:326][  0]LogIrisRpc                                Log           
+[2025.03.31-11.24.50:326][  0]LogIrisReferences                         Log           
+[2025.03.31-11.24.50:326][  0]LogIrisFilterConfig                       Log           
+[2025.03.31-11.24.50:326][  0]LogIrisBridge                             Log           
+[2025.03.31-11.24.50:326][  0]LogCookedMetadata                         Log           
+[2025.03.31-11.24.50:326][  0]LogIESLoader                              Log           
+[2025.03.31-11.24.50:326][  0]LogImageWrapper                           Log           
+[2025.03.31-11.24.50:326][  0]LogSwarmInterface                         Verbose       
+[2025.03.31-11.24.50:326][  0]SandboxFile                               Log           
+[2025.03.31-11.24.50:326][  0]LogIas                                    Log           
+[2025.03.31-11.24.50:326][  0]LogPackageStoreOptimizer                  Log           
+[2025.03.31-11.24.50:326][  0]LogZenFileSystemManifest                  Display       
+[2025.03.31-11.24.50:326][  0]LogZenStore                               Log           
+[2025.03.31-11.24.50:326][  0]LogZenStoreWriter                         Log           
+[2025.03.31-11.24.50:326][  0]LogMakeBinaryConfig                       Log           
+[2025.03.31-11.24.50:326][  0]LogScriptDisassembler                     Log           
+[2025.03.31-11.24.50:326][  0]LogToolMenus                              Log           
+[2025.03.31-11.24.50:326][  0]LogCbor                                   Log           
+[2025.03.31-11.24.50:326][  0]LogTraceAnalysis                          Log           
+[2025.03.31-11.24.50:326][  0]LogAnalysisCache                          Log           
+[2025.03.31-11.24.50:326][  0]LogNetTrace                               Log           
+[2025.03.31-11.24.50:326][  0]LogTraceServices                          Log           
+[2025.03.31-11.24.50:326][  0]LogDbgHelp                                Log           
+[2025.03.31-11.24.50:326][  0]LogSymslib                                Log           
+[2025.03.31-11.24.50:326][  0]LogDirectoryWatcher                       Log           
+[2025.03.31-11.24.50:326][  0]LogDirectoryWatcherTests                  Log           
+[2025.03.31-11.24.50:326][  0]LogFileCache                              Log           
+[2025.03.31-11.24.50:326][  0]LogInterchangeCore                        Log           
+[2025.03.31-11.24.50:326][  0]LogPropertyPathHelpersTest                Log           
+[2025.03.31-11.24.50:326][  0]LogAnimationCore                          Log           
+[2025.03.31-11.24.50:326][  0]ConfigEditor                              Log           
+[2025.03.31-11.24.50:326][  0]LogDetour                                 Log           
+[2025.03.31-11.24.50:326][  0]LogDebugRaycastCrash                      VeryVerbose   
+[2025.03.31-11.24.50:326][  0]LogRecast                                 Log           
+[2025.03.31-11.24.50:326][  0]DATAFLOW_LOG                              Error         
+[2025.03.31-11.24.50:326][  0]LogDataflowFactory                        Warning       
+[2025.03.31-11.24.50:326][  0]MovieSceneSerialization                   Verbose       
+[2025.03.31-11.24.50:326][  0]LogLiveLinkRoles                          Log           
+[2025.03.31-11.24.50:326][  0]LogLiveLinkSubjectSettings                Warning       
+[2025.03.31-11.24.50:326][  0]LogAVIWriter                              Log           
+[2025.03.31-11.24.50:326][  0]LogMovieCapture                           Warning       
+[2025.03.31-11.24.50:326][  0]LogMeshDescriptionBuildStatistic          Log           
+[2025.03.31-11.24.50:326][  0]LogSkeletalMeshBuilder                    Log           
+[2025.03.31-11.24.50:326][  0]LogStaticMeshBuilder                      Log           
+[2025.03.31-11.24.50:326][  0]LogConvexDecompTool                       Log           
+[2025.03.31-11.24.50:326][  0]LogEditorTransformGizmo                   Log           
+[2025.03.31-11.24.50:326][  0]LogTransformGizmo                         Log           
+[2025.03.31-11.24.50:326][  0]LogEditorInteractiveGizmoRegistry         Log           
+[2025.03.31-11.24.50:326][  0]LogEditorInteractiveGizmoSubsystem        Log           
+[2025.03.31-11.24.50:326][  0]LogAndroidWindowUtils                     Log           
+[2025.03.31-11.24.50:326][  0]LogPIEPreviewDevice                       Log           
+[2025.03.31-11.24.50:326][  0]LogMovieSceneCapture                      Log           
+[2025.03.31-11.24.50:326][  0]LogFCPXMLExporter                         Log           
+[2025.03.31-11.24.50:326][  0]LogFCPXMLMetadataExporter                 Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSequencerCore                          Log           
+[2025.03.31-11.24.50:326][  0]LogContentBrowser                         Verbose       
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSequencer                              Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSequencerTools                         Log           
+[2025.03.31-11.24.50:326][  0]LogVREditor                               Log           
+[2025.03.31-11.24.50:326][  0]LogHierarchicalLODUtilities               Verbose       
+[2025.03.31-11.24.50:326][  0]LogRuntimeVirtualTextureFixMaterial       Log           
+[2025.03.31-11.24.50:326][  0]LogVirtualTextureConversion               Log           
+[2025.03.31-11.24.50:326][  0]LogHMD                                    Log           
+[2025.03.31-11.24.50:326][  0]LogLoadingSplash                          Log           
+[2025.03.31-11.24.50:326][  0]LogMotionControllerComponent              Log           
+[2025.03.31-11.24.50:326][  0]LogMotionDelayBuffer                      Log           
+[2025.03.31-11.24.50:326][  0]DerivedDataCacheNotifications             Log           
+[2025.03.31-11.24.50:326][  0]LogZenDashboardLauncher                   Log           
+[2025.03.31-11.24.50:326][  0]LogStatusBar                              Log           
+[2025.03.31-11.24.50:326][  0]LogActorLevelEditorSelection              Log           
+[2025.03.31-11.24.50:326][  0]LogComponentLevelEditorSelection          Log           
+[2025.03.31-11.24.50:326][  0]LogSMInstanceLevelEditorSelection         Log           
+[2025.03.31-11.24.50:326][  0]LevelEditorActions                        Log           
+[2025.03.31-11.24.50:326][  0]LogViewportMenu                           Log           
+[2025.03.31-11.24.50:326][  0]LevelEditorModesActions                   Log           
+[2025.03.31-11.24.50:326][  0]LevelEditorSubsystem                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSplineComponentVisualizer              Log           
+[2025.03.31-11.24.50:326][  0]LogGameplayTasks                          Log           
+[2025.03.31-11.24.50:326][  0]LogGameplayTags                           Log           
+[2025.03.31-11.24.50:326][  0]LogGameplayDebugReplication               Display       
+[2025.03.31-11.24.50:326][  0]LogGameplayDebug                          Log           
+[2025.03.31-11.24.50:326][  0]LogPawnAction                             Warning       
+[2025.03.31-11.24.50:326][  0]LogAINavigation                           Warning       
+[2025.03.31-11.24.50:326][  0]LogTestAI                                 VeryVerbose   
+[2025.03.31-11.24.50:326][  0]LogAIModule                               Log           
+[2025.03.31-11.24.50:326][  0]LogManagerInstanceTracker                 Warning       
+[2025.03.31-11.24.50:326][  0]LogAISub                                  Log           
+[2025.03.31-11.24.50:326][  0]LogBehaviorTree                           Display       
+[2025.03.31-11.24.50:326][  0]LogBlackboard                             Log           
+[2025.03.31-11.24.50:326][  0]LogAIBlueprint                            Warning       
+[2025.03.31-11.24.50:326][  0]LogBrain                                  Warning       
+[2025.03.31-11.24.50:326][  0]LogEQS                                    Display       
+[2025.03.31-11.24.50:326][  0]LogCrowdFollowing                         Warning       
+[2025.03.31-11.24.50:326][  0]LogPathFollowing                          Warning       
+[2025.03.31-11.24.50:326][  0]LogAIPerception                           Warning       
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]DATAFLOWNODE_LOG                          Error         
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]FSC_Log                                   NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]AFA_Log                                   NoLogging     
+[2025.03.31-11.24.50:326][  0]FSC_Log                                   NoLogging     
+[2025.03.31-11.24.50:326][  0]FSSP_Log                                  NoLogging     
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]AGeometryCollectionActorLogging           Log           
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionCache                Log           
+[2025.03.31-11.24.50:326][  0]UGCC_LOG                                  Error         
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionComponent            Warning       
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionDebugDrawActor       Log           
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionDebugDraw            Log           
+[2025.03.31-11.24.50:326][  0]UGeometryCollectionConversionLogging      Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogGeoemtryCollectionClean                Verbose       
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionInternal             Log           
+[2025.03.31-11.24.50:326][  0]LogGeometryCollectionParticlesData        Log           
+[2025.03.31-11.24.50:326][  0]LSR_LOG                                   Log           
+[2025.03.31-11.24.50:326][  0]FGeometryCollectionSceneProxyLogging      Log           
+[2025.03.31-11.24.50:326][  0]USkeletalMeshSimulationComponentLogging   NoLogging     
+[2025.03.31-11.24.50:326][  0]LogNavOctree                              Warning       
+[2025.03.31-11.24.50:326][  0]LogNavigationDirtyArea                    Warning       
+[2025.03.31-11.24.50:326][  0]LogNavSysModule                           Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogLocalizationSourceControl              Log           
+[2025.03.31-11.24.50:326][  0]LogLocTextHelper                          Log           
+[2025.03.31-11.24.50:326][  0]LogPortableObjectPipeline                 Log           
+[2025.03.31-11.24.50:326][  0]LogInternationalizationArchiveSerializer  Log           
+[2025.03.31-11.24.50:326][  0]LogInternationalizationManifestSerializer  Log           
+[2025.03.31-11.24.50:326][  0]LogTextLocalizationResourceGenerator      Log           
+[2025.03.31-11.24.50:326][  0]LogUGCLocalization                        Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogParticleModuleDetails                  Log           
+[2025.03.31-11.24.50:326][  0]LogSplineComponentDetails                 Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogFoliage                                Warning       
+[2025.03.31-11.24.50:326][  0]LogStatsViewer                            Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialBaking                         Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialUtilities                      Log           
+[2025.03.31-11.24.50:326][  0]LogProxyMaterialUtilities                 Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialEditingLibrary                 Warning       
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialEditor                         Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialEditorUtilities                Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialInstanceEditor                 Log           
+[2025.03.31-11.24.50:326][  0]LogMaterialEditorSubstrateWidget          Log           
+[2025.03.31-11.24.50:326][  0]LogEditorMaterialEditorPromotionTests     Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogConstraints                            Log           
+[2025.03.31-11.24.50:326][  0]LogDataLayerEditorSubsystem               VeryVerbose   
+[2025.03.31-11.24.50:326][  0]LogGizmoElementBase                       Log           
+[2025.03.31-11.24.50:326][  0]LogGizmoElementLineBase                   Log           
+[2025.03.31-11.24.50:326][  0]LogFeaturePack                            Log           
+[2025.03.31-11.24.50:326][  0]LogGameProjectGeneration                  Verbose       
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogProjectBrowser                         Log           
+[2025.03.31-11.24.50:326][  0]LogGameProjectGenerationTests             Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSubobjectSubsystem                     Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSubobjectEditor                        Log           
+[2025.03.31-11.24.50:326][  0]LogWidgetStateBitfieldTest                Log           
+[2025.03.31-11.24.50:326][  0]LogUMG                                    Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintEditorLib                     Warning       
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogContentBrowserDataSubsystem            Log           
+[2025.03.31-11.24.50:326][  0]LogClothingAsset                          Log           
+[2025.03.31-11.24.50:326][  0]LogClothingMeshUtils                      Log           
+[2025.03.31-11.24.50:326][  0]LogLODUtilities                           Log           
+[2025.03.31-11.24.50:326][  0]LogStaticToSkeletalMeshConverter          Log           
+[2025.03.31-11.24.50:326][  0]LogInterchangeEngine                      Log           
+[2025.03.31-11.24.50:326][  0]LogAssetHeaderPatcher                     Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogAssetTools                             Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogAssetTypeActionsPhysicalMaterialMask   Log           
+[2025.03.31-11.24.50:326][  0]LogAssetViewTools                         Warning       
+[2025.03.31-11.24.50:326][  0]LogUnsavedAssetsTracker                   Log           
+[2025.03.31-11.24.50:326][  0]LogSourceControl                          Log           
+[2025.03.31-11.24.50:326][  0]LogActorBrowser                           Log           
+[2025.03.31-11.24.50:326][  0]LogActorMode                              Log           
+[2025.03.31-11.24.50:326][  0]LogSceneOutliner                          Log           
+[2025.03.31-11.24.50:326][  0]LogEditCondition                          Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogPropertyEditor                         Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogPropertyNode                           Log           
+[2025.03.31-11.24.50:326][  0]LogPropertyEditorPermissionList           Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogK2Compiler                             Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogTokenParser                            Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintNodeCache                     Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintActionMenuItemFactory         Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintDragDropMenuItem              Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintEditor                        Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogViewportBlueprintMenu                  Log           
+[2025.03.31-11.24.50:326][  0]LogNamespace                              Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintDebuggingView                 Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintDebugTreeView                 Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogFindInBlueprint                        Warning       
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSCSEditorViewport                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogSCSEditor                              Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogBlueprintEditorPromotionTests          Log           
+[2025.03.31-11.24.50:326][  0]LogEditorConfig                           Log           
+[2025.03.31-11.24.50:326][  0]LogJsonConfig                             Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogConnectionDrawingPolicy                Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogGraphPanel                             Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorModes                            Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogAnimationBlueprintLibrary              Verbose       
+[2025.03.31-11.24.50:326][  0]LogAnimationPoseScripting                 Verbose       
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogAnimationStateMachineLibrary           Verbose       
+[2025.03.31-11.24.50:326][  0]LogBlendSpaceLibrary                      Verbose       
+[2025.03.31-11.24.50:326][  0]LogBlendSpacePlayerLibrary                Verbose       
+[2025.03.31-11.24.50:326][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:326][  0]LogRBAN                                   Log           
+[2025.03.31-11.24.50:326][  0]LogSkeletalControlBase                    Log           
+[2025.03.31-11.24.50:326][  0]LogMirrorNodeLibrary                      Verbose       
+[2025.03.31-11.24.50:326][  0]LogModifyCurveNodeLibrary                 Verbose       
+[2025.03.31-11.24.50:326][  0]LogSequenceEvaluatorLibrary               Verbose       
+[2025.03.31-11.24.50:326][  0]LogSequencePlayerLibrary                  Verbose       
+[2025.03.31-11.24.50:326][  0]LogSkeletalControlLibrary                 Verbose       
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogMovieScene                             Log           
+[2025.03.31-11.24.50:326][  0]LogMovieSceneECS                          Log           
+[2025.03.31-11.24.50:326][  0]LogMovieSceneRepl                         Log           
+[2025.03.31-11.24.50:326][  0]LogMediaTimeSource                        Log           
+[2025.03.31-11.24.50:326][  0]LogMediaUtils                             Log           
+[2025.03.31-11.24.50:326][  0]LogAudioLink                              Log           
+[2025.03.31-11.24.50:326][  0]LogMediaAssets                            Log           
+[2025.03.31-11.24.50:326][  0]LogLevelSequence                          Log           
+[2025.03.31-11.24.50:326][  0]LogBSPOps                                 Log           
+[2025.03.31-11.24.50:326][  0]LogBspUtils                               Log           
+[2025.03.31-11.24.50:326][  0]LogSummarizeTrace                         Log           
+[2025.03.31-11.24.50:326][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:326][  0]LogApexClothingUtils                      Log           
+[2025.03.31-11.24.50:326][  0]LogApplicationMode                        Log           
+[2025.03.31-11.24.50:326][  0]LogAssetGuideline                         Warning       
+[2025.03.31-11.24.50:326][  0]LogAssetImportTask                        Log           
+[2025.03.31-11.24.50:326][  0]LogAutomatedImport                        Log           
+[2025.03.31-11.24.50:326][  0]LogAutoReimportManager                    Log           
+[2025.03.31-11.24.50:326][  0]LogEditorBookmarks                        Warning       
+[2025.03.31-11.24.50:326][  0]LogAssetRegistryGenerator                 Log           
+[2025.03.31-11.24.50:326][  0]LogAssetRegUtil                           Log           
+[2025.03.31-11.24.50:326][  0]LogAssetSize                              Display       
+[2025.03.31-11.24.50:326][  0]AudioMixerCommandlet                      Log           
+[2025.03.31-11.24.50:326][  0]LogIteratePackagesCommandlet              Log           
+[2025.03.31-11.24.50:326][  0]LogSourceControlUtils                     Log           
+[2025.03.31-11.24.50:326][  0]LogCompileAllBlueprintsCommandlet         Log           
+[2025.03.31-11.24.50:326][  0]LogCompileShadersTestBedCommandlet        Log           
+[2025.03.31-11.24.50:326][  0]LogContentCommandlet                      Log           
+[2025.03.31-11.24.50:326][  0]LogConvertLevelsToExternalActorsCommandlet  VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogCookCommandlet                         Log           
+[2025.03.31-11.24.50:328][  0]LogCookGlobalShaders                      Log           
+[2025.03.31-11.24.50:328][  0]LogCookShadersCommandlet                  Log           
+[2025.03.31-11.24.50:328][  0]LogDerivedDataCacheCommandlet             Log           
+[2025.03.31-11.24.50:328][  0]LogDiffAssetBulk                          Display       
+[2025.03.31-11.24.50:328][  0]LogDiffAssets                             Log           
+[2025.03.31-11.24.50:328][  0]LogDiffAssetsCommandlet                   Log           
+[2025.03.31-11.24.50:328][  0]LogDiffFilesCommandlet                    Log           
+[2025.03.31-11.24.50:328][  0]LogAssetRegistryDump                      Log           
+[2025.03.31-11.24.50:328][  0]LogBlueprintInfoDump                      Log           
+[2025.03.31-11.24.50:328][  0]LogDumpMaterialExpressionsCommandlet      Log           
+[2025.03.31-11.24.50:328][  0]LogDumpMaterialShaderTypesCommandlet      Log           
+[2025.03.31-11.24.50:328][  0]LogExportDialogueScriptCommandlet         Log           
+[2025.03.31-11.24.50:328][  0]LogExternalActorsCommandlet               VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogExtractLocRes                          Log           
+[2025.03.31-11.24.50:328][  0]LogFileServerCommandlet                   Log           
+[2025.03.31-11.24.50:328][  0]LogFixConflictingLocalizationKeys         Log           
+[2025.03.31-11.24.50:328][  0]LogGatherTextCommandlet                   Log           
+[2025.03.31-11.24.50:328][  0]LogGatherTextCommandletBase               Log           
+[2025.03.31-11.24.50:328][  0]LogGatherTextFromAssetsCommandlet         Log           
+[2025.03.31-11.24.50:328][  0]LogGatherTextFromMetaDataCommandlet       Log           
+[2025.03.31-11.24.50:328][  0]LogGatherTextFromSourceCommandlet         Log           
+[2025.03.31-11.24.50:328][  0]LogGenerateAssetManifestCommandlet        Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogBlueprintAPIGenerate                   Log           
+[2025.03.31-11.24.50:328][  0]LogGenerateDistillFileSetsCommandlet      Log           
+[2025.03.31-11.24.50:328][  0]LogGenerateArchiveCommandlet              Log           
+[2025.03.31-11.24.50:328][  0]LogGenerateManifestCommandlet             Log           
+[2025.03.31-11.24.50:328][  0]LogGenerateTextLocalizationReportCommandlet  Log           
+[2025.03.31-11.24.50:328][  0]LogGenerateTextLocalizationResourceCommandlet  Log           
+[2025.03.31-11.24.50:328][  0]LogImportDialogueScriptCommandlet         Log           
+[2025.03.31-11.24.50:328][  0]LogImportLocalizedDialogueCommandlet      Log           
+[2025.03.31-11.24.50:328][  0]LogInternationalizationConditioningCommandlet  Log           
+[2025.03.31-11.24.50:328][  0]LogInternationalizationExportCommandlet   Log           
+[2025.03.31-11.24.50:328][  0]LogMaterialLayerUsageCommandlet           Log           
+[2025.03.31-11.24.50:328][  0]LogMergeShaderPipelineCachesCommandlet    Log           
+[2025.03.31-11.24.50:328][  0]LogPackageHelperFunctions                 Log           
+[2025.03.31-11.24.50:328][  0]LogPackageUtilities                       Log           
+[2025.03.31-11.24.50:328][  0]LogParticleSystemAuditCommandlet          Log           
+[2025.03.31-11.24.50:328][  0]LogPopulateDialogueWaveFromCharacterSheetCommandlet  Log           
+[2025.03.31-11.24.50:328][  0]LogReplaceAssetsCommandlet                Log           
+[2025.03.31-11.24.50:328][  0]LogShaderCodeLibraryTools                 Log           
+[2025.03.31-11.24.50:328][  0]LogShaderPipelineCacheTools               Log           
+[2025.03.31-11.24.50:328][  0]LogStabilizeLocalizationKeys              Log           
+[2025.03.31-11.24.50:328][  0]LogSummarizeTrace                         Log           
+[2025.03.31-11.24.50:328][  0]LogSwapSoundForDialogueInCuesCommandlet   Log           
+[2025.03.31-11.24.50:328][  0]LogTextAsset                              Log           
+[2025.03.31-11.24.50:328][  0]LogUpdateGameProjectCommandlet            Log           
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionBuilderCommandlet        VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionCommandletUtils          Log           
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionConvertCommandlet        Log           
+[2025.03.31-11.24.50:328][  0]LogDataLayerToAssetCommandlet             Log           
+[2025.03.31-11.24.50:328][  0]LogHiddenDependencies                     Log           
+[2025.03.31-11.24.50:328][  0]LogDiff                                   Log           
+[2025.03.31-11.24.50:328][  0]LogIterativeValidate                      Log           
+[2025.03.31-11.24.50:328][  0]LogPackageBuildDependencyTracker          Log           
+[2025.03.31-11.24.50:328][  0]LogCook                                   Log           
+[2025.03.31-11.24.50:328][  0]LogCookStats                              Log           
+[2025.03.31-11.24.50:328][  0]LogCookList                               Log           
+[2025.03.31-11.24.50:328][  0]LogDerivedDataBuildLocalExecutor          Log           
+[2025.03.31-11.24.50:328][  0]LogDerivedDataBuildRemoteExecutor         Log           
+[2025.03.31-11.24.50:328][  0]LogDialogs                                Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorActor                            Log           
+[2025.03.31-11.24.50:328][  0]LogEditorBuildUtils                       Log           
+[2025.03.31-11.24.50:328][  0]LogEditorDomain                           Log           
+[2025.03.31-11.24.50:328][  0]LogEditorDomainSave                       Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogToolMenusEditor                        Log           
+[2025.03.31-11.24.50:328][  0]LogEditor                                 Log           
+[2025.03.31-11.24.50:328][  0]LogEditorExporters                        Log           
+[2025.03.31-11.24.50:328][  0]LogLevelTools                             Warning       
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorObject                           Log           
+[2025.03.31-11.24.50:328][  0]LogEditorSelectUtils                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorServer                           Log           
+[2025.03.31-11.24.50:328][  0]LogEditorTransaction                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogActorFactory                           Log           
+[2025.03.31-11.24.50:328][  0]LogCSVImportFactory                       Log           
+[2025.03.31-11.24.50:328][  0]LogEditorFactories                        Log           
+[2025.03.31-11.24.50:328][  0]LogFactory                                Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogPackFactory                            Log           
+[2025.03.31-11.24.50:328][  0]LogTIFFLoader                             Log           
+[2025.03.31-11.24.50:328][  0]LogTTFontImport                           Log           
+[2025.03.31-11.24.50:328][  0]LogVectorFieldFactory                     Log           
+[2025.03.31-11.24.50:328][  0]LogExportMeshUtils                        Log           
+[2025.03.31-11.24.50:328][  0]LogFbxAnimationExport                     Log           
+[2025.03.31-11.24.50:328][  0]LogFbxLightImport                         Log           
+[2025.03.31-11.24.50:328][  0]LogFbx                                    Log           
+[2025.03.31-11.24.50:328][  0]LogFbxMaterialImport                      Log           
+[2025.03.31-11.24.50:328][  0]LogFbxSkeletalMeshExport                  Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogFileHelpers                            Log           
+[2025.03.31-11.24.50:328][  0]LogLODGenerator                           Log           
+[2025.03.31-11.24.50:328][  0]LogSkeletalMeshImport                     Log           
+[2025.03.31-11.24.50:328][  0]LogStaticMeshImportUtils                  Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogBlueprintDebug                         Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogDebuggerCommands                       Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorViewport                         Log           
+[2025.03.31-11.24.50:328][  0]LogVolumetricLightmapImport               Log           
+[2025.03.31-11.24.50:328][  0]LogLightmassSolver                        Warning       
+[2025.03.31-11.24.50:328][  0]LogLightmassRender                        Error         
+[2025.03.31-11.24.50:328][  0]LogLocalizationChunkDataGenerator         Log           
+[2025.03.31-11.24.50:328][  0]LogLocalizedAssetUtil                     Log           
+[2025.03.31-11.24.50:328][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogObjectTools                            Log           
+[2025.03.31-11.24.50:328][  0]PackageAutoSaver                          Log           
+[2025.03.31-11.24.50:328][  0]LogCommandletPackageHelper                Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogPackageTools                           Log           
+[2025.03.31-11.24.50:328][  0]LogParamParser                            Log           
+[2025.03.31-11.24.50:328][  0]LogPhysicalMaterialMaskImport             Log           
+[2025.03.31-11.24.50:328][  0]LogEditorPhysMode                         Log           
+[2025.03.31-11.24.50:328][  0]LogPlayLevel                              Log           
+[2025.03.31-11.24.50:328][  0]LogReferncedAssetsBrowser                 Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogCurveEditor                            Log           
+[2025.03.31-11.24.50:328][  0]LogCurveTableOptions                      Log           
+[2025.03.31-11.24.50:328][  0]LogSelection                              Log           
+[2025.03.31-11.24.50:328][  0]LogSettingsClasses                        Log           
+[2025.03.31-11.24.50:328][  0]LogSkinWeightsUtilities                   Log           
+[2025.03.31-11.24.50:328][  0]LogSelectionDetails                       Log           
+[2025.03.31-11.24.50:328][  0]LogStaticLightingSystem                   Log           
+[2025.03.31-11.24.50:328][  0]LogStaticMeshEdit                         Log           
+[2025.03.31-11.24.50:328][  0]LogAssetEditorSubsystem                   Log           
+[2025.03.31-11.24.50:328][  0]LogEditorAssetSubsystem                   Log           
+[2025.03.31-11.24.50:328][  0]LogAutomationEditorCommon                 Log           
+[2025.03.31-11.24.50:328][  0]LogEditorPromotionTests                   Log           
+[2025.03.31-11.24.50:328][  0]LogThumbnailExternalCache                 Log           
+[2025.03.31-11.24.50:328][  0]LogThumbnailManager                       Log           
+[2025.03.31-11.24.50:328][  0]LogAssetEditorToolkit                     Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogUnrealEdEngine                         Log           
+[2025.03.31-11.24.50:328][  0]LogUnrealEd                               Log           
+[2025.03.31-11.24.50:328][  0]LogUnrealEdMisc                           Log           
+[2025.03.31-11.24.50:328][  0]LogUnrealEdSrv                            Log           
+[2025.03.31-11.24.50:328][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:328][  0]LogUtils                                  Log           
+[2025.03.31-11.24.50:328][  0]LogWorldFolders                           Log           
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionBuilder                  VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionFoliageBuilder           VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionHLODsBuilder             VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionLandscapeSplineMeshBuilder  VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionMiniMapBuilder           VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionNavigationDataBuilder    Log           
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionRenameDuplicateBuilder   VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionResaveActorsBuilder      VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogWorldPartitionRuntimeVirtualTextureBuilder  VeryVerbose   
+[2025.03.31-11.24.50:328][  0]LogTypedElementEditor                     Log           
+[2025.03.31-11.24.50:328][  0]LogInstancedFoliage                       Log           
+[2025.03.31-11.24.50:328][  0]LogImageWriteQueue                        Warning       
+[2025.03.31-11.24.50:328][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:328][  0]LogDistanceField                          Log           
+[2025.03.31-11.24.50:328][  0]LogHairRendering                          Log           
+[2025.03.31-11.24.50:328][  0]LogNanite                                 Warning       
+[2025.03.31-11.24.50:328][  0]LogPathTracingDenoising                   Log           
+[2025.03.31-11.24.50:328][  0]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Characters/Aura/Animations/Idle.Idle (Required Memory Estimate: 36.86 MB)
+[2025.03.31-11.24.50:328][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:328][  0]LogRenderer                               Log           
+[2025.03.31-11.24.50:328][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogVRS                                    Log           
+[2025.03.31-11.24.50:329][  0]LogVirtualTextureSpace                    Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogLandscape                              Log           
+[2025.03.31-11.24.50:329][  0]LogLandscapeBP                            Display       
+[2025.03.31-11.24.50:329][  0]LogGrass                                  Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogAudioQuartz                            Log           
+[2025.03.31-11.24.50:329][  0]LogActor                                  Warning       
+[2025.03.31-11.24.50:329][  0]LogBlueprintUserMessages                  Log           
+[2025.03.31-11.24.50:329][  0]LogActorDeferredScriptManager             Log           
+[2025.03.31-11.24.50:329][  0]LogActorPartitionSubsystem                VeryVerbose   
+[2025.03.31-11.24.50:329][  0]LogPartitionActor                         Log           
+[2025.03.31-11.24.50:329][  0]LogNavigation                             Warning       
+[2025.03.31-11.24.50:329][  0]LogNavigationDataBuild                    Log           
+[2025.03.31-11.24.50:329][  0]LogNavigationHistory                      Warning       
+[2025.03.31-11.24.50:329][  0]LogNavInvokers                            Warning       
+[2025.03.31-11.24.50:329][  0]LogNavLink                                Warning       
+[2025.03.31-11.24.50:329][  0]LogAStar                                  Display       
+[2025.03.31-11.24.50:329][  0]LogAnimation                              Warning       
+[2025.03.31-11.24.50:329][  0]LogRootMotion                             Warning       
+[2025.03.31-11.24.50:329][  0]LogAnimationCompression                   Display       
+[2025.03.31-11.24.50:329][  0]LogAnimNotify                             Warning       
+[2025.03.31-11.24.50:329][  0]LogAnimMontage                            Warning       
+[2025.03.31-11.24.50:329][  0]LogAnimTransitionRequests                 NoLogging     
+[2025.03.31-11.24.50:329][  0]LogAnimTrails                             Log           
+[2025.03.31-11.24.50:329][  0]LogAnimMarkerSync                         Warning       
+[2025.03.31-11.24.50:329][  0]LogSkinWeightProfileManager               Warning       
+[2025.03.31-11.24.50:329][  0]LogAssetManager                           Log           
+[2025.03.31-11.24.50:329][  0]LogAsyncCompilation                       Log           
+[2025.03.31-11.24.50:329][  0]LogAudio                                  Display       
+[2025.03.31-11.24.50:329][  0]LogAudioDebug                             Display       
+[2025.03.31-11.24.50:329][  0]LogAudioDerivedData                       Log           
+[2025.03.31-11.24.50:329][  0]LogAudioStreamCaching                     Display       
+[2025.03.31-11.24.50:329][  0]LogBatchedElements                        Log           
+[2025.03.31-11.24.50:329][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:329][  0]LogBlueprint                              Warning       
+[2025.03.31-11.24.50:329][  0]LogBlueprintFuncLibrary                   Log           
+[2025.03.31-11.24.50:329][  0]LogSkeletalControl                        Warning       
+[2025.03.31-11.24.50:329][  0]LogBrush                                  Log           
+[2025.03.31-11.24.50:329][  0]LogCamera                                 Log           
+[2025.03.31-11.24.50:329][  0]LogCameraShake                            Warning       
+[2025.03.31-11.24.50:329][  0]LogCameraPhotography                      Log           
+[2025.03.31-11.24.50:329][  0]LogCameraShakeSourceComponent             Log           
+[2025.03.31-11.24.50:329][  0]LogCharacter                              Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogChartCreation                          Log           
+[2025.03.31-11.24.50:329][  0]LogCheatManager                           Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogCollisionCommands                      Log           
+[2025.03.31-11.24.50:329][  0]LogCollisionProfile                       Warning       
+[2025.03.31-11.24.50:329][  0]LogCollision                              Warning       
+[2025.03.31-11.24.50:329][  0]LogPluginCommandlet                       Log           
+[2025.03.31-11.24.50:329][  0]LogActorComponent                         Log           
+[2025.03.31-11.24.50:329][  0]LogBrushComponent                         Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogCharacterMovement                      Log           
+[2025.03.31-11.24.50:329][  0]LogNavMeshMovement                        Log           
+[2025.03.31-11.24.50:329][  0]LogCharacterNetSmoothing                  Log           
+[2025.03.31-11.24.50:329][  0]LogChildActorComponent                    Log           
+[2025.03.31-11.24.50:329][  0]LogInterpToMovementComponent              Log           
+[2025.03.31-11.24.50:329][  0]LogLODSync                                Warning       
+[2025.03.31-11.24.50:329][  0]LogMaterialParameter                      Warning       
+[2025.03.31-11.24.50:329][  0]LogMovement                               Log           
+[2025.03.31-11.24.50:329][  0]LogPawnMovementComponent                  Log           
+[2025.03.31-11.24.50:329][  0]LogPrimitiveComponent                     Log           
+[2025.03.31-11.24.50:329][  0]LogProjectileMovement                     Log           
+[2025.03.31-11.24.50:329][  0]LogProjectileMovementInterpolation        Log           
+[2025.03.31-11.24.50:329][  0]LogReflectionCaptureComponent             Log           
+[2025.03.31-11.24.50:329][  0]LogSceneComponent                         Log           
+[2025.03.31-11.24.50:329][  0]LogSkinnedMeshComp                        Log           
+[2025.03.31-11.24.50:329][  0]LogController                             Warning       
+[2025.03.31-11.24.50:329][  0]LogPath                                   Warning       
+[2025.03.31-11.24.50:329][  0]LogCoreSettings                           Log           
+[2025.03.31-11.24.50:329][  0]LogCurveTable                             Log           
+[2025.03.31-11.24.50:329][  0]LogNet                                    Log           
+[2025.03.31-11.24.50:329][  0]LogNetSubObject                           Log           
+[2025.03.31-11.24.50:329][  0]LogRep                                    Log           
+[2025.03.31-11.24.50:329][  0]LogNetPlayerMovement                      Warning       
+[2025.03.31-11.24.50:329][  0]LogNetTraffic                             Warning       
+[2025.03.31-11.24.50:329][  0]LogRepTraffic                             Warning       
+[2025.03.31-11.24.50:329][  0]LogNetDormancy                            Warning       
+[2025.03.31-11.24.50:329][  0]LogSecurity                               Warning       
+[2025.03.31-11.24.50:329][  0]LogNetPartialBunch                        Warning       
+[2025.03.31-11.24.50:329][  0]LogDataTable                              Log           
+[2025.03.31-11.24.50:329][  0]LogDemo                                   Log           
+[2025.03.31-11.24.50:329][  0]LogDeviceProfile                          Log           
+[2025.03.31-11.24.50:329][  0]LogDeviceProfileManager                   Log           
+[2025.03.31-11.24.50:329][  0]LogDistributions                          Warning       
+[2025.03.31-11.24.50:329][  0]LogEdGraph                                Log           
+[2025.03.31-11.24.50:329][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:329][  0]LogEngineService                          Log           
+[2025.03.31-11.24.50:329][  0]LogEngineUtils                            Log           
+[2025.03.31-11.24.50:329][  0]LogAutoDestroySubsystem                   Log           
+[2025.03.31-11.24.50:329][  0]LogScopedMovementUpdate                   Log           
+[2025.03.31-11.24.50:329][  0]LogViewportStatsSubsystem                 Log           
+[2025.03.31-11.24.50:329][  0]LogFontFace                               Log           
+[2025.03.31-11.24.50:329][  0]LogHaptics                                Display       
+[2025.03.31-11.24.50:329][  0]LogInputDeviceProperties                  Log           
+[2025.03.31-11.24.50:329][  0]LogSpawnActorTimer                        Log           
+[2025.03.31-11.24.50:329][  0]LogHapticTest                             Display       
+[2025.03.31-11.24.50:329][  0]LogGameMode                               Log           
+[2025.03.31-11.24.50:329][  0]LogGameNetworkManager                     Log           
+[2025.03.31-11.24.50:329][  0]LogGameSession                            Log           
+[2025.03.31-11.24.50:329][  0]LogGameState                              Log           
+[2025.03.31-11.24.50:329][  0]LogQuadTree                               Warning       
+[2025.03.31-11.24.50:329][  0]LogGeomTools                              Log           
+[2025.03.31-11.24.50:329][  0]LogSkinCache                              Log           
+[2025.03.31-11.24.50:329][  0]LogGPUSkinCacheVisualization              Log           
+[2025.03.31-11.24.50:329][  0]LogGPUSort                                Log           
+[2025.03.31-11.24.50:329][  0]LogHighResScreenshot                      Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogHUD                                    Log           
+[2025.03.31-11.24.50:329][  0]LogImageUtils                             Log           
+[2025.03.31-11.24.50:329][  0]LogInGamePerformanceTracker               Log           
+[2025.03.31-11.24.50:329][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:329][  0]LogInputDevices                           Log           
+[2025.03.31-11.24.50:329][  0]LogInstanceProxy                          Log           
+[2025.03.31-11.24.50:329][  0]LogISMPartition                           Log           
+[2025.03.31-11.24.50:329][  0]LogArray                                  Warning       
+[2025.03.31-11.24.50:329][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:329][  0]LogLevel                                  Log           
+[2025.03.31-11.24.50:329][  0]LogLevelActorContainer                    Log           
+[2025.03.31-11.24.50:329][  0]LogLevelInstance                          Log           
+[2025.03.31-11.24.50:329][  0]LogLevelStreaming                         Log           
+[2025.03.31-11.24.50:329][  0]LogLightMap                               Log           
+[2025.03.31-11.24.50:329][  0]LogLightWeightInstance                    Log           
+[2025.03.31-11.24.50:329][  0]LogPlayerManagement                       Error         
+[2025.03.31-11.24.50:329][  0]LogHLOD                                   Log           
+[2025.03.31-11.24.50:329][  0]LogMaterialMerging                        Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogMaterial                               Log           
+[2025.03.31-11.24.50:329][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:329][  0]LogMeshBudget                             Log           
+[2025.03.31-11.24.50:329][  0]LogGlobalStatus                           Verbose       
+[2025.03.31-11.24.50:329][  0]LogModel                                  Log           
+[2025.03.31-11.24.50:329][  0]LogModelComponent                         Log           
+[2025.03.31-11.24.50:329][  0]LogNavigationPoint                        Log           
+[2025.03.31-11.24.50:329][  0]LogNetSyncLoads                           Log           
+[2025.03.31-11.24.50:329][  0]LogObjectCache                            Log           
+[2025.03.31-11.24.50:329][  0]LogODSC                                   Log           
+[2025.03.31-11.24.50:329][  0]LogHandshake                              Log           
+[2025.03.31-11.24.50:329][  0]LogParticles                              Log           
+[2025.03.31-11.24.50:329][  0]LogDamage                                 Warning       
+[2025.03.31-11.24.50:329][  0]LogPawn                                   Warning       
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogPhysics                                Warning       
+[2025.03.31-11.24.50:329][  0]LogClusterUnion                           Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]USkeletalMeshSimulationComponentLogging   NoLogging     
+[2025.03.31-11.24.50:329][  0]LogFPhysScene_ChaosSolver                 Log           
+[2025.03.31-11.24.50:329][  0]LogPhysicalMaterialMask                   Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogGlobalField                            Log           
+[2025.03.31-11.24.50:329][  0]LogPlayerCameraManager                    Log           
+[2025.03.31-11.24.50:329][  0]LogPlayerController                       Log           
+[2025.03.31-11.24.50:329][  0]LogPolygon                                Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogHealthSnapshot                         Log           
+[2025.03.31-11.24.50:329][  0]LogLevelStreamingProfiling                Log           
+[2025.03.31-11.24.50:329][  0]LogLeakDetector                           Log           
+[2025.03.31-11.24.50:329][  0]LogNaniteStreaming                        Log           
+[2025.03.31-11.24.50:329][  0]LogNeuralProfile                          Log           
+[2025.03.31-11.24.50:329][  0]LogSkeletalMeshLODImporterData            Log           
+[2025.03.31-11.24.50:329][  0]LogSpecularProfile                        Log           
+[2025.03.31-11.24.50:329][  0]LogSubsurfaceProfile                      Log           
+[2025.03.31-11.24.50:329][  0]LogRepProperties                          Warning       
+[2025.03.31-11.24.50:329][  0]LogRepPropertiesBackCompat                Warning       
+[2025.03.31-11.24.50:329][  0]LogRepCompares                            Warning       
+[2025.03.31-11.24.50:329][  0]LogRuntimeOptionsBase                     Log           
+[2025.03.31-11.24.50:329][  0]LogSceneUtils                             Log           
+[2025.03.31-11.24.50:329][  0]LogBufferVisualization                    Log           
+[2025.03.31-11.24.50:329][  0]LogNaniteVisualization                    Log           
+[2025.03.31-11.24.50:329][  0]LogLumenVisualization                     Log           
+[2025.03.31-11.24.50:329][  0]LogVirtualShadowMapVisualization          Log           
+[2025.03.31-11.24.50:329][  0]LogMultiView                              Log           
+[2025.03.31-11.24.50:329][  0]LogScriptPlatformInterface                Log           
+[2025.03.31-11.24.50:329][  0]LogShaderCompilers                        Log           
+[2025.03.31-11.24.50:329][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:329][  0]LogSkeletalMesh                           Log           
+[2025.03.31-11.24.50:329][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:329][  0]LogSkeletalMeshEditorData                 Log           
+[2025.03.31-11.24.50:329][  0]LogSkeletalMeshLODSettings                Warning       
+[2025.03.31-11.24.50:329][  0]LogSkeletalGPUSkinMesh                    Warning       
+[2025.03.31-11.24.50:329][  0]LogSkinnedAsset                           Log           
+[2025.03.31-11.24.50:329][  0]LogViewport                               Log           
+[2025.03.31-11.24.50:329][  0]LogSlateSoundDevice                       Log           
+[2025.03.31-11.24.50:330][  0]LogAudioConcurrency                       Log           
+[2025.03.31-11.24.50:330][  0]LogSoundNodeGroupControl                  Log           
+[2025.03.31-11.24.50:330][  0]LogSparseVolumeTexture                    Log           
+[2025.03.31-11.24.50:330][  0]LogSparseVolumeTextureData                Log           
+[2025.03.31-11.24.50:330][  0]LogSparseVolumeTextureStreamingManager    Log           
+[2025.03.31-11.24.50:330][  0]LogStaticMesh                             Log           
+[2025.03.31-11.24.50:330][  0]LogStereoLayerFlags                       Log           
+[2025.03.31-11.24.50:330][  0]LogStreamableManager                      Log           
+[2025.03.31-11.24.50:330][  0]TextureStreamingBuild                     Log           
+[2025.03.31-11.24.50:330][  0]LogContentStreaming                       Log           
+[2025.03.31-11.24.50:330][  0]LogSubsystemCollection                    Log           
+[2025.03.31-11.24.50:330][  0]LogSubtitle                               Log           
+[2025.03.31-11.24.50:330][  0]LogSystemSettings                         Log           
+[2025.03.31-11.24.50:330][  0]LogEngineAutomationLatentCommand          Log           
+[2025.03.31-11.24.50:330][  0]LogEditorAutomationTests                  Log           
+[2025.03.31-11.24.50:330][  0]LogEngineAutomationTests                  Log           
+[2025.03.31-11.24.50:330][  0]LogBaseAutomationTests                    Log           
+[2025.03.31-11.24.50:330][  0]LogNetworkAutomationTests                 Log           
+[2025.03.31-11.24.50:330][  0]LogHackAutomationTests                    Log           
+[2025.03.31-11.24.50:330][  0]LogTexture                                Log           
+[2025.03.31-11.24.50:330][  0]LogTextureUpload                          Log           
+[2025.03.31-11.24.50:330][  0]LogTextureEncodingSettings                Log           
+[2025.03.31-11.24.50:330][  0]LogTick                                   Log           
+[2025.03.31-11.24.50:330][  0]LogTimeline                               Log           
+[2025.03.31-11.24.50:330][  0]TraceFiltering                            Display       
+[2025.03.31-11.24.50:330][  0]LogClient                                 Log           
+[2025.03.31-11.24.50:330][  0]LogEngine                                 Log           
+[2025.03.31-11.24.50:330][  0]LogExporter                               Log           
+[2025.03.31-11.24.50:330][  0]LogCanvas                                 Log           
+[2025.03.31-11.24.50:330][  0]LogVectorField                            Error         
+[2025.03.31-11.24.50:330][  0]LogVisual                                 Display       
+[2025.03.31-11.24.50:330][  0]LogVolume                                 Log           
+[2025.03.31-11.24.50:330][  0]LogVTDiskCache                            Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogWorld                                  Log           
+[2025.03.31-11.24.50:330][  0]LogSpawn                                  Warning       
+[2025.03.31-11.24.50:330][  0]LogWorldComposition                       Log           
+[2025.03.31-11.24.50:330][  0]LogContentBundle                          Log           
+[2025.03.31-11.24.50:330][  0]LogHLODDestruction                        Log           
+[2025.03.31-11.24.50:330][  0]LogHLODHash                               Log           
+[2025.03.31-11.24.50:330][  0]LogHLODBuilder                            Log           
+[2025.03.31-11.24.50:330][  0]LogHLODLayer                              Log           
+[2025.03.31-11.24.50:330][  0]LogHLODRuntimeSubsystem                   Log           
+[2025.03.31-11.24.50:330][  0]LogWorldPartitionRuntimeSpatialHashHLOD   Log           
+[2025.03.31-11.24.50:330][  0]LogWorldPartition                         Log           
+[2025.03.31-11.24.50:330][  0]LogWorldPartitionMiniMapHelper            VeryVerbose   
+[2025.03.31-11.24.50:330][  0]LogWorldSettings                          Log           
+[2025.03.31-11.24.50:330][  0]LogMoviePlayer                            Log           
+[2025.03.31-11.24.50:330][  0]LogPreLoadScreenManager                   Log           
+[2025.03.31-11.24.50:330][  0]LogInstallBundleManager                   Display       
+[2025.03.31-11.24.50:330][  0]LogLaunchWindows                          Log           
+[2025.03.31-11.24.50:330][  0]LogStorageServerConnection                Log           
+[2025.03.31-11.24.50:330][  0]LogStorageServerPlatformFile              Log           
+[2025.03.31-11.24.50:330][  0]LogNetworkPlatformFile                    Log           
+[2025.03.31-11.24.50:330][  0]LogStreamingPlatformFile                  Log           
+[2025.03.31-11.24.50:330][  0]LogMessageLog                             Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogAudioEditor                            Log           
+[2025.03.31-11.24.50:330][  0]LogSoundClassEditor                       Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogSoundSubmixEditor                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogFastBuildController                    Log           
+[2025.03.31-11.24.50:330][  0]LogFastBuildJobProcessor                  Log           
+[2025.03.31-11.24.50:330][  0]LogXGEController                          Log           
+[2025.03.31-11.24.50:330][  0]LogPlatformCryptoOpenSSL                  Warning       
+[2025.03.31-11.24.50:330][  0]LogCacheAdapter                           Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogChaosCache                             Verbose       
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogChaosCloth                             Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]PixWinPlugin                              Log           
+[2025.03.31-11.24.50:330][  0]RenderDocPlugin                           Log           
+[2025.03.31-11.24.50:330][  0]LogStudioTelemetry                        Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineServices                         Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineSchema                           Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineServicesConfig                   Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineParty                            Log           
+[2025.03.31-11.24.50:330][  0]LogOnline                                 Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineGame                             Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineChat                             Log           
+[2025.03.31-11.24.50:330][  0]LogVoiceEngine                            Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineVoice                            Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineSession                          Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineUser                             Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineFriend                           Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineIdentity                         Log           
+[2025.03.31-11.24.50:330][  0]LogOnlinePresence                         Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineExternalUI                       Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineAchievements                     Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineLeaderboard                      Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineCloud                            Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineTitleFile                        Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineEntitlement                      Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineEvents                           Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineSharing                          Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineStoreV2                          Log           
+[2025.03.31-11.24.50:330][  0]LogOnlinePurchase                         Log           
+[2025.03.31-11.24.50:330][  0]LogOnlineTournament                       Display       
+[2025.03.31-11.24.50:330][  0]LogOnlineStats                            Log           
+[2025.03.31-11.24.50:330][  0]LogWebSockets                             Warning       
+[2025.03.31-11.24.50:330][  0]LogXmpp                                   Warning       
+[2025.03.31-11.24.50:330][  0]LogVoice                                  Display       
+[2025.03.31-11.24.50:330][  0]LogVoiceEncode                            Display       
+[2025.03.31-11.24.50:330][  0]LogVoiceDecode                            Display       
+[2025.03.31-11.24.50:330][  0]LogVoiceCapture                           Warning       
+[2025.03.31-11.24.50:330][  0]LogBeacon                                 Log           
+[2025.03.31-11.24.50:330][  0]LogPartyBeacon                            Log           
+[2025.03.31-11.24.50:330][  0]LogSpectatorBeacon                        Log           
+[2025.03.31-11.24.50:330][  0]OSSUtilsTestLog                           VeryVerbose   
+[2025.03.31-11.24.50:330][  0]LogVariantContent                         Log           
+[2025.03.31-11.24.50:330][  0]LogDatasmithContent                       Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraShaderCompiler                  Log           
+[2025.03.31-11.24.50:330][  0]LogExrReaderGpu                           Log           
+[2025.03.31-11.24.50:330][  0]LogWmfMediaFactory                        Log           
+[2025.03.31-11.24.50:330][  0]LogWmfMedia                               Log           
+[2025.03.31-11.24.50:330][  0]LogChunkDownloader                        Log           
+[2025.03.31-11.24.50:330][  0]LogGLTFExporter                           Log           
+[2025.03.31-11.24.50:330][  0]LogAVEncoder                              Log           
+[2025.03.31-11.24.50:330][  0]LogVideoDecoder                           Log           
+[2025.03.31-11.24.50:330][  0]LogVideoEncoder                           Log           
+[2025.03.31-11.24.50:330][  0]GameplayMediaEncoder                      Log           
+[2025.03.31-11.24.50:330][  0]WMF                                       Log           
+[2025.03.31-11.24.50:330][  0]HighlightRecorder                         Log           
+[2025.03.31-11.24.50:330][  0]WindowsVideoRecordingSystem               VeryVerbose   
+[2025.03.31-11.24.50:330][  0]MP4                                       Log           
+[2025.03.31-11.24.50:330][  0]WmfRingBuffer                             Log           
+[2025.03.31-11.24.50:330][  0]LogTargetPlatformManager                  Log           
+[2025.03.31-11.24.50:330][  0]LogLauncherProfile                        Log           
+[2025.03.31-11.24.50:330][  0]LogTurnkeySupport                         Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatManager                   Log           
+[2025.03.31-11.24.50:330][  0]LogTextureBuildFunction                   Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatASTC                      Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatDXT                       Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatETC2                      Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatIntelISPCTexComp          Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatUncompressed              Log           
+[2025.03.31-11.24.50:330][  0]LogTextureFormatOodle                     Log           
+[2025.03.31-11.24.50:330][  0]LogIOSDeviceHelper                        Log           
+[2025.03.31-11.24.50:330][  0]LogCookedEditorTargetPlatform             Log           
+[2025.03.31-11.24.50:330][  0]LogOpusAudioDecoder                       Log           
+[2025.03.31-11.24.50:330][  0]LogAudioFormatADPCM                       Log           
+[2025.03.31-11.24.50:330][  0]LogAudioFormatBink                        Display       
+[2025.03.31-11.24.50:330][  0]LogAudioFormatRad                         Display       
+[2025.03.31-11.24.50:330][  0]LogZipArchive                             Display       
+[2025.03.31-11.24.50:330][  0]LogShaderMinifier                         Log           
+[2025.03.31-11.24.50:330][  0]LogShaderSymbolExport                     Display       
+[2025.03.31-11.24.50:330][  0]LogVectorVM                               VeryVerbose   
+[2025.03.31-11.24.50:330][  0]LogVVMBackend                             VeryVerbose   
+[2025.03.31-11.24.50:330][  0]LogVectorVMShaderCompiler                 Log           
+[2025.03.31-11.24.50:330][  0]LogD3D11ShaderCompiler                    Log           
+[2025.03.31-11.24.50:330][  0]LogD3D12ShaderCompiler                    Log           
+[2025.03.31-11.24.50:330][  0]LogOpenGLShaderCompiler                   Log           
+[2025.03.31-11.24.50:330][  0]LogVulkanShaderCompiler                   Log           
+[2025.03.31-11.24.50:330][  0]LogMetalCompilerSetup                     Log           
+[2025.03.31-11.24.50:330][  0]LogMetalShaderCompiler                    Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogSkeletalMeshPersonaMeshDetail          Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogMeshUtilities                          Verbose       
+[2025.03.31-11.24.50:330][  0]LogMeshMerging                            Verbose       
+[2025.03.31-11.24.50:330][  0]LogMeshReduction                          Verbose       
+[2025.03.31-11.24.50:330][  0]LogQuadric                                Log           
+[2025.03.31-11.24.50:330][  0]LogQuadricSimplifier                      Log           
+[2025.03.31-11.24.50:330][  0]LogProxyQuadric                           Log           
+[2025.03.31-11.24.50:330][  0]LogProxyLODMeshReduction                  Log           
+[2025.03.31-11.24.50:330][  0]LogSkeletalMeshReduction                  Log           
+[2025.03.31-11.24.50:330][  0]LogMeshBoneReduction                      Log           
+[2025.03.31-11.24.50:330][  0]LogLiveCoding                             Display       
+[2025.03.31-11.24.50:330][  0]LogMessaging                              Log           
+[2025.03.31-11.24.50:330][  0]LogMockMeshDataTracker                    Log           
+[2025.03.31-11.24.50:330][  0]LogMrMesh                                 Warning       
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogCollisionAnalyzer                      Log           
+[2025.03.31-11.24.50:330][  0]LogAutomationTestExcludelist              Log           
+[2025.03.31-11.24.50:330][  0]LogAutomationTest                         Warning       
+[2025.03.31-11.24.50:330][  0]LogAutomationCommandLine                  Log           
+[2025.03.31-11.24.50:330][  0]LogAutomationController                   Log           
+[2025.03.31-11.24.50:330][  0]LogAutomationControllerSettings           Log           
+[2025.03.31-11.24.50:330][  0]LogAutomationTelemetry                    Log           
+[2025.03.31-11.24.50:330][  0]BlueprintAssertion                        Error         
+[2025.03.31-11.24.50:330][  0]AutomationFunctionLibrary                 Log           
+[2025.03.31-11.24.50:330][  0]LogFunctionalTest                         Log           
+[2025.03.31-11.24.50:330][  0]LogScreenshotFunctionalTest               Log           
+[2025.03.31-11.24.50:330][  0]GroundTruthLog                            Log           
+[2025.03.31-11.24.50:330][  0]LogFunctionalTesting                      Log           
+[2025.03.31-11.24.50:330][  0]LogAIGraph                                Display       
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogBehaviorTreeEditor                     Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogBlackboardEditor                       Warning       
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorUtilityBlueprint                 Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogTranslationEditor                      Log           
+[2025.03.31-11.24.50:330][  0]LocalizationExport                        Log           
+[2025.03.31-11.24.50:330][  0]MainFrameActions                          Log           
+[2025.03.31-11.24.50:330][  0]LogMainFrame                              Log           
+[2025.03.31-11.24.50:330][  0]LogHotReload                              Log           
+[2025.03.31-11.24.50:330][  0]LogOverlay                                Log           
+[2025.03.31-11.24.50:330][  0]LogOverlayEditor                          Log           
+[2025.03.31-11.24.50:330][  0]LogClothingAssetFactory                   Log           
+[2025.03.31-11.24.50:330][  0]LogWorldPartitionEditor                   VeryVerbose   
+[2025.03.31-11.24.50:330][  0]LogEnhancedInput                          Log           
+[2025.03.31-11.24.50:330][  0]LogWorldSubsystemInput                    Log           
+[2025.03.31-11.24.50:330][  0]LogEditorInput                            Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEnhancedInputEditor                    Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEnvironmentQueryEditor                 Log           
+[2025.03.31-11.24.50:330][  0]LogStructUtils                            Warning       
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogRigVM                                  Log           
+[2025.03.31-11.24.50:330][  0]LogVisualGraphUtils                       Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogRigVMCompiler                          Log           
+[2025.03.31-11.24.50:330][  0]LogRigVMDeveloper                         Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogControlRig                             Log           
+[2025.03.31-11.24.50:330][  0]ControlRigProfilingLog                    Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogRigUnit                                Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogRigVMEditor                            Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogControlRigDeveloper                    Log           
+[2025.03.31-11.24.50:330][  0]LogTemplateSequence                       Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogLegacyCameraShake                      Warning       
+[2025.03.31-11.24.50:330][  0]LogSignificance                           Log           
+[2025.03.31-11.24.50:330][  0]LogAnimationSharing                       Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LoadingProfiler                           Log           
+[2025.03.31-11.24.50:330][  0]MemoryProfiler                            Log           
+[2025.03.31-11.24.50:330][  0]NetworkingProfiler                        Log           
+[2025.03.31-11.24.50:330][  0]TimingProfilerTests                       Log           
+[2025.03.31-11.24.50:330][  0]TimingProfiler                            Log           
+[2025.03.31-11.24.50:330][  0]TraceInsights                             Verbose       
+[2025.03.31-11.24.50:330][  0]SubSequenceSerialization                  Verbose       
+[2025.03.31-11.24.50:330][  0]LogTakesCore                              Log           
+[2025.03.31-11.24.50:330][  0]TransformSerialization                    Verbose       
+[2025.03.31-11.24.50:330][  0]AnimationSerialization                    Verbose       
+[2025.03.31-11.24.50:330][  0]SpawnSerialization                        Verbose       
+[2025.03.31-11.24.50:330][  0]PropertySerialization                     Verbose       
+[2025.03.31-11.24.50:330][  0]ManifestSerialization                     Verbose       
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogIKSolver                               Warning       
+[2025.03.31-11.24.50:330][  0]LogPBIKSolver                             Warning       
+[2025.03.31-11.24.50:330][  0]LogIKRig                                  Warning       
+[2025.03.31-11.24.50:330][  0]LogContentBrowserFileDataSource           Warning       
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogPythonOnlineDocsCommandlet             Log           
+[2025.03.31-11.24.50:330][  0]LogPythonScriptCommandlet                 Log           
+[2025.03.31-11.24.50:330][  0]LogPythonRemoteExecution                  Log           
+[2025.03.31-11.24.50:330][  0]LogPython                                 Log           
+[2025.03.31-11.24.50:330][  0]LogTcpMessaging                           Log           
+[2025.03.31-11.24.50:330][  0]LogUdpMessaging                           Log           
+[2025.03.31-11.24.50:330][  0]LogPaper2D                                Verbose       
+[2025.03.31-11.24.50:330][  0]LogAssetManagerEditor                     Log           
+[2025.03.31-11.24.50:330][  0]LogInsights                               Verbose       
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogDataValidation                         Warning       
+[2025.03.31-11.24.50:330][  0]LogContentValidation                      Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogPhysicsAsset                           Log           
+[2025.03.31-11.24.50:330][  0]LogNiagara                                Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraLeakDetector                    Log           
+[2025.03.31-11.24.50:330][  0]LogRigidMeshCollision                     Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraDebuggerClient                  Log           
+[2025.03.31-11.24.50:330][  0]LogVolumeCache                            Log           
+[2025.03.31-11.24.50:330][  0]LogSparseVolumeTextureFactory             Log           
+[2025.03.31-11.24.50:330][  0]LogSparseVolumeTextureOpenVDBUtility      Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraDumpBytecodeCommandlet          Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraDumpModuleInfoCommandlet        Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraScriptValidation                Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraSystemAuditCommandlet           Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraBaker                           Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraCompiler                        VeryVerbose   
+[2025.03.31-11.24.50:330][  0]LogNiagaraDebugger                        Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraEditor                          Log           
+[2025.03.31-11.24.50:330][  0]LogCollectionManager                      Log           
+[2025.03.31-11.24.50:330][  0]LogNiagaraSimCaching                      Verbose       
+[2025.03.31-11.24.50:330][  0]LogNiagaraSimCachingEditor                Verbose       
+[2025.03.31-11.24.50:330][  0]LogInterchangeNodes                       Log           
+[2025.03.31-11.24.50:330][  0]LogInterchangeFbxParser                   Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogVariantManager                         Log           
+[2025.03.31-11.24.50:330][  0]LogInterchangeDispatcher                  Log           
+[2025.03.31-11.24.50:330][  0]LogInterchangeImport                      Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogInterchangePipeline                    Log           
+[2025.03.31-11.24.50:330][  0]LogAudioSynesthesiaCore                   Log           
+[2025.03.31-11.24.50:330][  0]LogAudioAnalyzer                          Log           
+[2025.03.31-11.24.50:330][  0]LogAudioSynesthesia                       Log           
+[2025.03.31-11.24.50:330][  0]LogMetaSound                              Log           
+[2025.03.31-11.24.50:330][  0]LogMetasoundProfiling                     Log           
+[2025.03.31-11.24.50:330][  0]LogMetasoundParamPack                     Log           
+[2025.03.31-11.24.50:330][  0]LogMetasoundGenerator                     Log           
+[2025.03.31-11.24.50:330][  0]LogWaveTable                              Log           
+[2025.03.31-11.24.50:330][  0]LogMetasoundEngine                        Log           
+[2025.03.31-11.24.50:330][  0]LogAudioWidgets                           Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogMetasoundEditor                        Log           
+[2025.03.31-11.24.50:330][  0]LogMsQuicRuntime                          Display       
+[2025.03.31-11.24.50:330][  0]LogProceduralComponent                    Log           
+[2025.03.31-11.24.50:330][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:330][  0]LogResonanceAudio                         Display       
+[2025.03.31-11.24.50:330][  0]LogTapDelay                               Log           
+[2025.03.31-11.24.50:330][  0]LogSynthesis                              Log           
+[2025.03.31-11.24.50:330][  0]LogChaosClothEditor                       Verbose       
+[2025.03.31-11.24.50:330][  0]LogChaosVDEditor                          Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogMeshPaintGeometryCollectionComponentAdapter  Log           
+[2025.03.31-11.24.50:330][  0]LogMeshPaintSkeletalMeshAdapter           Log           
+[2025.03.31-11.24.50:330][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:330][  0]LogWorldMetrics                           Log           
+[2025.03.31-11.24.50:330][  0]LogBlendSpaceMotionAnalysis               Log           
+[2025.03.31-11.24.50:330][  0]LogLocomotionAnalysis                     Log           
+[2025.03.31-11.24.50:330][  0]LogRootMotionAnalysis                     Log           
+[2025.03.31-11.24.50:330][  0]LogCLionAccessor                          Log           
+[2025.03.31-11.24.50:330][  0]LogDumpGPUServices                        Log           
+[2025.03.31-11.24.50:330][  0]LogVSCodeAccessor                         Log           
+[2025.03.31-11.24.50:330][  0]LogPluginUtils                            Log           
+[2025.03.31-11.24.50:331][  0]LogVSCodeAccessor                         Log           
+[2025.03.31-11.24.50:331][  0]LogScreenshotComparison                   Log           
+[2025.03.31-11.24.50:331][  0]LogSkeletalMeshEditor                     Log           
+[2025.03.31-11.24.50:331][  0]LogSkeletalMeshEditorSubsystem            Log           
+[2025.03.31-11.24.50:331][  0]LogStaticMeshEditor                       Log           
+[2025.03.31-11.24.50:331][  0]LogStaticMeshEditorSubsystem              Log           
+[2025.03.31-11.24.50:331][  0]LogStaticMeshEditorTools                  Log           
+[2025.03.31-11.24.50:331][  0]LogEditorPythonExecuter                   Log           
+[2025.03.31-11.24.50:331][  0]LogEditorScripting                        Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogPlanarCut                              Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogFractureTool                           Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogGeometryCollection                     Log           
+[2025.03.31-11.24.50:331][  0]LogPhysicsField                           Log           
+[2025.03.31-11.24.50:331][  0]AFFS_Log                                  Log           
+[2025.03.31-11.24.50:331][  0]UFEC_Log                                  NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]ADataflowLogging                          Log           
+[2025.03.31-11.24.50:331][  0]LogDataflowRenderComponentInternal        Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogDataflowSkeletalMeshNodes              Log           
+[2025.03.31-11.24.50:331][  0]LogDataflowStaticMeshNodes                Log           
+[2025.03.31-11.24.50:331][  0]LogDataflowNodes                          Log           
+[2025.03.31-11.24.50:331][  0]LogMeshModelingTools                      Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogDataflowEditor                         Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogGeometryCollectionFactories            Log           
+[2025.03.31-11.24.50:331][  0]UGeometryCollectionCommandsLogging        NoLogging     
+[2025.03.31-11.24.50:331][  0]UGeometryCollectionConversionLogging      Log           
+[2025.03.31-11.24.50:331][  0]LogGeometryCollectionSelectRigidBodyEdMode  Log           
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]UManagedArrayLogging                      NoLogging     
+[2025.03.31-11.24.50:331][  0]LogGeometryFlowMeshProcessing             Log           
+[2025.03.31-11.24.50:331][  0]LogLocalizableMessageProcessor            Log           
+[2025.03.31-11.24.50:331][  0]LogMeshModelingToolsEditor                Log           
+[2025.03.31-11.24.50:331][  0]LogMeshSimplification                     Log           
+[2025.03.31-11.24.50:331][  0]LogApproximateActors                      Log           
+[2025.03.31-11.24.50:331][  0]LogAITestSuite                            Log           
+[2025.03.31-11.24.50:331][  0]LogBehaviorTreeTest                       Log           
+[2025.03.31-11.24.50:331][  0]LogVisualStudioTools                      Log           
+[2025.03.31-11.24.50:331][  0]LogMeshPaintEdMode                        Log           
+[2025.03.31-11.24.50:331][  0]LogMeshPaintSkeletalMeshAdapter           Log           
+[2025.03.31-11.24.50:331][  0]LogPaperCBExtensions                      Log           
+[2025.03.31-11.24.50:331][  0]LogPaper2DEditor                          Log           
+[2025.03.31-11.24.50:331][  0]LogPaperSpriteSheetImporter               Verbose       
+[2025.03.31-11.24.50:331][  0]LogPaperTiledImporter                     Verbose       
+[2025.03.31-11.24.50:331][  0]OodleNetworkHandlerComponentLog           Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogBlueprintHeaderView                    Log           
+[2025.03.31-11.24.50:331][  0]LogCryptoKeys                             Log           
+[2025.03.31-11.24.50:331][  0]LogCryptoKeysCommandlet                   Log           
+[2025.03.31-11.24.50:331][  0]LogCryptoKeys                             Log           
+[2025.03.31-11.24.50:331][  0]MaterialAnalyzer                          Log           
+[2025.03.31-11.24.50:331][  0]LogMeshLODToolset                         Log           
+[2025.03.31-11.24.50:331][  0]LogPluginWizard                           Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogLevelSequenceEditor                    Log           
+[2025.03.31-11.24.50:331][  0]LogAnimationEditor                        Log           
+[2025.03.31-11.24.50:331][  0]LogSchematicGraph                         Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogControlRigEditor                       Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogSpeedTreeImportData                    Log           
+[2025.03.31-11.24.50:331][  0]LogSpeedTreeImport                        Log           
+[2025.03.31-11.24.50:331][  0]LogUVEditor                               Log           
+[2025.03.31-11.24.50:331][  0]LogVariantManagerContentEditor            Log           
+[2025.03.31-11.24.50:331][  0]LogGeoCaStreamingCodecV1                  Verbose       
+[2025.03.31-11.24.50:331][  0]LogBlankProgram                           Log           
+[2025.03.31-11.24.50:331][  0]LogGeometryCache                          Log           
+[2025.03.31-11.24.50:331][  0]LogGeometryCacheWriter                    Log           
+[2025.03.31-11.24.50:331][  0]LogGeoCaStreaming                         Verbose       
+[2025.03.31-11.24.50:331][  0]LogGeoCaStreamingNormalCompression        Verbose       
+[2025.03.31-11.24.50:331][  0]LogAbcImporter                            Verbose       
+[2025.03.31-11.24.50:331][  0]LogAlembicCommandlet                      Log           
+[2025.03.31-11.24.50:331][  0]LogAlembic                                Log           
+[2025.03.31-11.24.50:331][  0]LogInterchangeEditor                      Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogVSAccessor                             Log           
+[2025.03.31-11.24.50:331][  0]LogMediaPlate                             Log           
+[2025.03.31-11.24.50:331][  0]LogImgMediaFactory                        Log           
+[2025.03.31-11.24.50:331][  0]LogOpenEXRWrapper                         Log           
+[2025.03.31-11.24.50:331][  0]LogOpenEXRWrapperHeaderReader             Log           
+[2025.03.31-11.24.50:331][  0]LogImgMedia                               Log           
+[2025.03.31-11.24.50:331][  0]LogMediaPlayerEditor                      Log           
+[2025.03.31-11.24.50:331][  0]LogMediaPlateEditor                       Log           
+[2025.03.31-11.24.50:331][  0]LogAndroidPermission                      Log           
+[2025.03.31-11.24.50:331][  0]LogAssetTags                              Log           
+[2025.03.31-11.24.50:331][  0]LogAudioCaptureCore                       Log           
+[2025.03.31-11.24.50:331][  0]LogAudioCapture                           Log           
+[2025.03.31-11.24.50:331][  0]LogOpenImageDenoise                       Log           
+[2025.03.31-11.24.50:331][  0]LogGooglePAD                              Log           
+[2025.03.31-11.24.50:331][  0]LogVFC                                    Log           
+[2025.03.31-11.24.50:331][  0]LogPatchGeneration                        Log           
+[2025.03.31-11.24.50:331][  0]LogBPSInstallerConfig                     Log           
+[2025.03.31-11.24.50:331][  0]LogMergeManifests                         Log           
+[2025.03.31-11.24.50:331][  0]LogBuildPatchServices                     Log           
+[2025.03.31-11.24.50:331][  0]LogVerifyChunkData                        Log           
+[2025.03.31-11.24.50:331][  0]LogDataCompactifier                       Log           
+[2025.03.31-11.24.50:331][  0]LogManifestData                           Log           
+[2025.03.31-11.24.50:331][  0]LogManifestUObject                        Log           
+[2025.03.31-11.24.50:331][  0]LogDiffManifests                          Log           
+[2025.03.31-11.24.50:331][  0]LogDataEnumeration                        Log           
+[2025.03.31-11.24.50:331][  0]LogChunkDatabaseWriter                    Log           
+[2025.03.31-11.24.50:331][  0]LogChunkDeltaOptimiser                    Log           
+[2025.03.31-11.24.50:331][  0]LogChunkWriter                            Log           
+[2025.03.31-11.24.50:331][  0]LogCloudEnumeration                       Log           
+[2025.03.31-11.24.50:331][  0]LogDeltaEnumeration                       Log           
+[2025.03.31-11.24.50:331][  0]LogBuildStreamer                          Log           
+[2025.03.31-11.24.50:331][  0]LogFileAttributesParser                   Log           
+[2025.03.31-11.24.50:331][  0]LogManifestBuilder                        Log           
+[2025.03.31-11.24.50:331][  0]LogManifestBuildStreamer                  Log           
+[2025.03.31-11.24.50:331][  0]LogPackageChunkData                       Log           
+[2025.03.31-11.24.50:331][  0]LogBuildInstallStreamer                   Log           
+[2025.03.31-11.24.50:331][  0]LogChunkDbChunkSource                     Log           
+[2025.03.31-11.24.50:331][  0]LogChunkReferenceTracker                  Warning       
+[2025.03.31-11.24.50:331][  0]LogCloudChunkSource                       Log           
+[2025.03.31-11.24.50:331][  0]LogDownloadConnectionCount                Log           
+[2025.03.31-11.24.50:331][  0]LogDownloadService                        Warning       
+[2025.03.31-11.24.50:331][  0]LogInstallChunkSource                     Warning       
+[2025.03.31-11.24.50:331][  0]LogOptimisedDelta                         Log           
+[2025.03.31-11.24.50:331][  0]LogPrerequisites                          Log           
+[2025.03.31-11.24.50:331][  0]LogFileOperationTracker                   Warning       
+[2025.03.31-11.24.50:331][  0]LogVerifier                               Warning       
+[2025.03.31-11.24.50:331][  0]LogVirtualFileConstructor                 Log           
+[2025.03.31-11.24.50:331][  0]LogMobilePatchingUtils                    Log           
+[2025.03.31-11.24.50:331][  0]LogSynthesisEditor                        Log           
+[2025.03.31-11.24.50:331][  0]LogInterchangeTests                       Log           
+[2025.03.31-11.24.50:331][  0]LogMetaHumanImport                        Log           
+[2025.03.31-11.24.50:331][  0]LogMetaHumanVersionService                Log           
+[2025.03.31-11.24.50:331][  0]LogContentBrowserAssetDataSource          Log           
+[2025.03.31-11.24.50:331][  0]LogNativeClassHierarchy                   Log           
+[2025.03.31-11.24.50:331][  0]LogObjectMixerEditor                      Log           
+[2025.03.31-11.24.50:331][  0]LogObjectMixerEditor                      Log           
+[2025.03.31-11.24.50:331][  0]LogCEF3Utils                              Log           
+[2025.03.31-11.24.50:331][  0]LogCEFBrowser                             Log           
+[2025.03.31-11.24.50:331][  0]LogWebBrowser                             Log           
+[2025.03.31-11.24.50:331][  0]LogAudioSynesthesiaEditor                 Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]ActorSerialization                        Verbose       
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogLevelInstanceEditor                    Log           
+[2025.03.31-11.24.50:331][  0]LogCharacterAI                            Verbose       
+[2025.03.31-11.24.50:331][  0]LogIKRigEditor                            Warning       
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogBrushEditing                           Log           
+[2025.03.31-11.24.50:331][  0]LogEditorGeometry                         Log           
+[2025.03.31-11.24.50:331][  0]LogGeometryMode                           Log           
+[2025.03.31-11.24.50:331][  0]LogGeomModifier                           Log           
+[2025.03.31-11.24.50:331][  0]LogTextureAlignMode                       Log           
+[2025.03.31-11.24.50:331][  0]LogAndroidMediaFactory                    Log           
+[2025.03.31-11.24.50:331][  0]LogAvfMediaFactory                        Log           
+[2025.03.31-11.24.50:331][  0]LogImgMediaEditor                         Log           
+[2025.03.31-11.24.50:331][  0]LogWebMMediaFactory                       Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogEditorClassViewer                      Log           
+[2025.03.31-11.24.50:331][  0]LogMicManager                             Log           
+[2025.03.31-11.24.50:331][  0]LogResonanceAudioEditor                   Warning       
+[2025.03.31-11.24.50:331][  0]LogWaveTableEditor                        Log           
+[2025.03.31-11.24.50:331][  0]LogLandscapeEdMode                        Log           
+[2025.03.31-11.24.50:331][  0]LogLandscapeTools                         Log           
+[2025.03.31-11.24.50:331][  0]LogLandscapeAutomationTests               Log           
+[2025.03.31-11.24.50:331][  0]Cmd                                       VeryVerbose   
+[2025.03.31-11.24.50:331][  0]LogVisualStudioTools: Display: Found 4 blueprints.
+[2025.03.31-11.24.50:331][  0]LogCore: Engine exit requested (reason: Commandlet VisualStudioToolsCommandlet_0 finished execution (result 0))
+[2025.03.31-11.24.50:331][  0]LogInit: Display: Finished.
+[2025.03.31-11.24.50:331][  0]LogInit: Display: 
+Execution of commandlet took:  0.66 seconds
+[2025.03.31-11.24.50:331][  0]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.31-11.24.50:337][  0]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.03.31-11.24.50:337][  0]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.03.31-11.24.50:341][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.03.31-11.24.50:341][  0]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.03.31-11.24.50:349][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.03.31-11.24.50:352][  0]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.03.31-11.24.50:356][  0]LogExit: Preparing to exit.
+[2025.03.31-11.24.50:414][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.03.31-11.24.50:488][  0]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.03.31-11.24.50:507][  0]LogExit: Editor shut down
+[2025.03.31-11.24.50:629][  0]LogExit: Object subsystem successfully closed.
+[2025.03.31-11.24.50:687][  0]LogOpenImageDenoise: OIDN shutting down
+[2025.03.31-11.24.50:777][  0]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.03.31-11.24.50:779][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.03.31-11.24.50:779][  0]LogXGEController: Cleaning working directory: C:/Users/thyia/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.03.31-11.24.50:783][  0]LogPakFile: Destroying PakPlatformFile
+[2025.03.31-11.24.50:795][  0]LogExit: Exiting.
+[2025.03.31-11.24.50:803][  0]Log file closed, 03/31/25 19:24:50
